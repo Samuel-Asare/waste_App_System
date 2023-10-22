@@ -1,0 +1,51 @@
+.application_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media (max-width: 770px) {
+  .application_container {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem 0;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .application_container {
+    padding-bottom: 0.6rem;
+  }
+}
+@media (min-width: 992px) {
+  .application_container {
+    padding-bottom: 0.3rem;
+  }
+}
+.application_container .app_card {
+  background: rgba(255, 255, 255, 0.627);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 2rem 1rem;
+  width: 300px;
+}
+@media (max-width: 770px) {
+  .application_container .app_card {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .application_container .app_card {
+    transform: translateY(-70px);
+  }
+}
+@media (min-width: 992px) {
+  .application_container .app_card {
+    transform: translateY(-70px);
+  }
+}
+.application_container .app_card h6 {
+  padding: 0.6rem 0;
+}/*# sourceMappingURL=ApplicationWorks.css.map */

@@ -1,0 +1,60 @@
+.EachLearnCard_container {
+  width: 100vw;
+}
+@media (max-width: 770px) {
+  .EachLearnCard_container {
+    padding-top: 3.6rem;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .EachLearnCard_container {
+    padding-top: 4.7rem;
+  }
+}
+@media (min-width: 992px) {
+  .EachLearnCard_container {
+    padding-top: 4.7rem;
+  }
+}
+.EachLearnCard_container .main_card_content {
+  padding-bottom: 1rem;
+}
+.EachLearnCard_container .main_card_content header {
+  height: 40vh;
+  background: linear-gradient(90deg, hsl(165, 60%, 11%) 0%, hsl(149, 54%, 31%) 100%);
+  padding: 1rem;
+  position: relative;
+}
+.EachLearnCard_container .main_card_content header .text {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+}
+.EachLearnCard_container .main_card_content header .text h1 {
+  color: #fff;
+}
+.EachLearnCard_container .main_card_content header .text p {
+  color: rgba(255, 255, 255, 0.7450980392);
+}
+.EachLearnCard_container .main_card_content .text_content {
+  padding-top: 1rem;
+  margin: 0 auto;
+}
+@media (max-width: 770px) {
+  .EachLearnCard_container .main_card_content .text_content {
+    width: 90%;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .EachLearnCard_container .main_card_content .text_content {
+    width: 70%;
+  }
+}
+@media (min-width: 992px) {
+  .EachLearnCard_container .main_card_content .text_content {
+    width: 70%;
+  }
+}
+.EachLearnCard_container .main_card_content .text_content .step {
+  font-weight: bold;
+}/*# sourceMappingURL=EachLearnCard.css.map */

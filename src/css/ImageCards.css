@@ -1,0 +1,50 @@
+.image_wrapper {
+  width: 100vw;
+  height: 55vh;
+  padding: 1rem 0;
+  margin-bottom: 0.5rem;
+}
+.image_wrapper .image_holder {
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 1rem;
+  overflow-x: scroll !important;
+  white-space: nowrap;
+  overflow: hidden;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media (max-width: 770px) {
+  .image_wrapper .image_holder {
+    width: 97vw;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .image_wrapper .image_holder {
+    width: 95vw;
+  }
+}
+@media (min-width: 992px) {
+  .image_wrapper .image_holder {
+    width: 95vw;
+  }
+}
+.image_wrapper .image_holder img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 500px;
+  height: 100%;
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .image_wrapper .image_holder img {
+    width: 98% !important;
+  }
+}
+@media (max-width: 770px) {
+  .image_wrapper .image_holder img {
+    width: 97% !important;
+  }
+}/*# sourceMappingURL=ImageCards.css.map */

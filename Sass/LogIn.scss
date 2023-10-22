@@ -1,0 +1,136 @@
+@import "./utilities";
+
+.login_container {
+    // background-color: rgb(31, 87, 21);
+    padding-top: 2rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .login_content {
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        color: #000;
+        flex-direction: column;
+        display: flex;
+        padding: 1rem;
+        @include mobile_screen {
+            align-items: center;
+            justify-content: center;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        @include tablet_screen {
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            width: 450px;
+        }
+
+        @include desktop_screen {
+            justify-content: center;
+            align-items: center;
+            width: 450px;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            row-gap: 0.3em;
+            width: 80%;
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .google_text {
+                background-color: $primary-white;
+                padding: 0.5rem;
+                border-radius: 0.3rem;
+                width: fit-content;
+            }
+
+            p {
+                #link_item {
+                    color: $primary-blue;
+                    text-decoration: none;
+                    font-weight: bold;
+                    margin-left: 0.5rem;
+                }
+            }
+        }
+
+        form {
+            width: 100%;
+            margin-top: 0.5rem;
+            fieldset {
+                border: none;
+                display: flex;
+                flex-direction: column;
+                row-gap: 0.8em;
+                input {
+                    padding: 0.5em 0.8em;
+                    outline: none;
+                    background-color: #3e3d3da2;
+                    border: none;
+                    color: #fff;
+                    border-radius: 0.3em;
+                    border: 1px solid transparent;
+                    &::placeholder {
+                        color: #ffffffc9;
+                        font-size: 0.8rem;
+                        text-transform: uppercase;
+                    }
+                    &:focus {
+                        border: 1px solid #ffffff9b;
+                    }
+                }
+                #email {
+                    &::placeholder {
+                        text-transform: lowercase;
+                    }
+                }
+
+                #forgot_div {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    p {
+                        font-size: 0.85rem;
+                    }
+                }
+
+                #reset_btn {
+                    color: #cf055c;
+                }
+
+                #login_btn {
+                    width: 40%;
+                    margin: 2em auto 0 auto;
+                    padding: 0.6em 0.1em;
+                    border-radius: 4em;
+                    outline: none;
+                    border: 1px solid #fff;
+                    background-color: $primary-blue;
+                    color: #ffffffc8;
+                    font-weight: bold;
+                    transition: ease-in-out 600ms;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: lighten(
+                            $color: $primary-blue,
+                            $amount: 10
+                        );
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+}

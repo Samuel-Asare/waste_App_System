@@ -1,0 +1,139 @@
+.homePage_Wrapper {
+  padding-top: 3.5rem;
+  width: 100vw;
+  padding-bottom: 1rem;
+}
+@media (max-width: 770px) {
+  .homePage_Wrapper {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .homePage_Wrapper {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+@media (min-width: 992px) {
+  .homePage_Wrapper {
+    height: 80vh;
+  }
+}
+.homePage_Wrapper .glassy_div {
+  background: linear-gradient(to right, rgba(100, 108, 255, 0.2509803922), rgba(222, 223, 187, 0.3254901961));
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 770px) {
+  .homePage_Wrapper .glassy_div {
+    height: 95%;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .homePage_Wrapper .glassy_div {
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+}
+.homePage_Wrapper .glassy_div .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  flex: 1;
+}
+@media (min-width: 992px) {
+  .homePage_Wrapper .glassy_div .text {
+    width: 60%;
+  }
+}
+@media (max-width: 770px) {
+  .homePage_Wrapper .glassy_div .text h1 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .homePage_Wrapper .glassy_div .text h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .homePage_Wrapper .glassy_div .text h1 {
+    font-size: 3rem;
+  }
+}
+.homePage_Wrapper .glassy_div .text .links {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (min-width: 992px) {
+  .homePage_Wrapper .glassy_div .text .links {
+    justify-content: flex-start;
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+  }
+}
+@media (max-width: 770px) {
+  .homePage_Wrapper .glassy_div .text .links {
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+  }
+}
+.homePage_Wrapper .glassy_div .text .links button {
+  transition: ease-in-out 600ms all;
+  border-radius: 0.5rem;
+}
+@media (max-width: 770px) {
+  .homePage_Wrapper .glassy_div .text .links button {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 992px) {
+  .homePage_Wrapper .glassy_div .text .links button {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+  }
+}
+.homePage_Wrapper .glassy_div .text .links button:hover {
+  background-color: goldenrod;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.homePage_Wrapper .glassy_div .text .links .learn_btn {
+  background-color: goldenrod;
+}
+.homePage_Wrapper .glassy_div .image_div {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homePage_Wrapper .glassy_div .image_div img {
+  width: 130%;
+  height: 130%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  animation: heroImage 4s infinite;
+}
+
+@keyframes heroImage {
+  0% {
+    transform: translateX(-20px);
+  }
+  50% {
+    transform: translateX(40px);
+  }
+  100% {
+    transform: translateX(-20px);
+  }
+}/*# sourceMappingURL=Home_HeroSection.css.map */

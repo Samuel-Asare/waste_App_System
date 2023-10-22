@@ -1,0 +1,146 @@
+@import "./utilities";
+
+.signup_container {
+    // background-color: firebrick;
+    padding-top: 2.3rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .sign_content {
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        color: #000;
+        flex-direction: column;
+        display: flex;
+        padding: 1rem;
+        @include mobile_screen {
+            align-items: center;
+            justify-content: center;
+            max-width: 400px;
+            min-width: 400px;
+            margin: 0 auto;
+        }
+
+        @include tablet_screen {
+            align-items: center;
+            justify-content: center;
+            width: 450px;
+            min-width: 350px;
+            margin: 0 auto;
+        }
+
+        @include desktop_screen {
+            justify-content: center;
+            align-items: center;
+            width: 450px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            row-gap: 0.7em;
+            margin-bottom: 0.7em;
+            h1 {
+                margin: 0;
+                font-size: 1.5rem;
+            }
+
+            .google_text {
+                background-color: $primary-white;
+                padding: 0.5rem;
+                border-radius: 0.3rem;
+                width: fit-content;
+            }
+
+            p {
+                #link_item {
+                    color: $primary-blue;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        form {
+            width: 100%;
+            margin-top: 0.5rem;
+            fieldset {
+                border: none;
+                display: flex;
+                flex-direction: column;
+                row-gap: 0.8em;
+                margin-bottom: 1rem;
+                input {
+                    padding: 0.5em 0.8em;
+                    outline: none;
+                    background-color: #3e3d3da2;
+                    border: none;
+                    color: #fff;
+                    border-radius: 0.3em;
+                    border: 1px solid transparent;
+                    &::placeholder {
+                        color: #ffffff91;
+                        font-size: 0.8rem;
+                        text-transform: uppercase;
+                    }
+                    &:focus {
+                        border: 1px solid #ffffff9b;
+                    }
+                }
+                .email {
+                    &::placeholder {
+                        text-transform: lowercase;
+                    }
+                }
+
+                .subscribe_label {
+                    display: flex;
+                    column-gap: 0.5rem;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+
+                    #subscribe {
+                        margin-top: 0.3rem;
+                    }
+
+                    p {
+                        font-size: 0.9rem;
+                    }
+                }
+
+                .submit_btn {
+                    width: 40%;
+                    margin: 0 auto;
+                    padding: 0.6em 0.1em;
+                    border-radius: 4em;
+                    outline: none;
+                    border: 1px solid #fff;
+                    background-color: $primary-blue;
+                    color: #ffffffc8;
+                    font-weight: bold;
+                    transition: ease-in-out 600ms;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: lighten(
+                            $color: $primary-blue,
+                            $amount: 10
+                        );
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.errorMessage {
+    font-size: 0.9rem;
+    color: red;
+}

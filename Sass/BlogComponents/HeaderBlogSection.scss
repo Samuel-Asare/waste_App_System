@@ -1,0 +1,26 @@
+@import "../utilities";
+
+.blogHeaderSection {
+    width: 100%;
+    position: relative;
+
+    .carousel {
+        height: 65vh !important;
+        width: 100% !important;
+
+        .carousel_dash_indicators {
+            button {
+                background-color: $second-yellow !important;
+            }
+        }
+        .carousel-image {
+            width: 100% !important;
+            height: 65vh !important;
+            object-fit: cover;
+        }
+    }
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.421) !important;
+}

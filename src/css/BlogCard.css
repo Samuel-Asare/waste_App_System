@@ -1,0 +1,94 @@
+.localCardsWrapper .headline {
+  width: 100%;
+  padding: 0.5rem;
+}
+.localCardsWrapper .headline h5 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  border-bottom: 1px solid #cccccc;
+}
+.localCardsWrapper .localCardsContent {
+  padding: 1rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  margin: 0 !important;
+}
+.localCardsWrapper .localCardsContent .blog-card {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 8px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  overflow: hidden;
+}
+@media (max-width: 770px) {
+  .localCardsWrapper .localCardsContent .blog-card {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+.localCardsWrapper .localCardsContent .blog-card a .image_div {
+  position: relative !important;
+  height: 200px;
+  position: relative;
+}
+.localCardsWrapper .localCardsContent .blog-card a .image_div img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.localCardsWrapper .localCardsContent .blog-card a .image_div .content {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.5411764706);
+  -webkit-backdrop-filter: 12px;
+          backdrop-filter: 12px;
+  padding: 0.3rem;
+}
+.localCardsWrapper .localCardsContent .blog-card a .image_div .content h6 {
+  font-weight: bold;
+  font-size: 0.955rem;
+  padding: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin: 0;
+}
+.localCardsWrapper .localCardsContent .blog-card a .image_div .content .description {
+  padding-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #333333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin-bottom: 6px;
+}
+.localCardsWrapper .localCardsContent .blog-card .information {
+  width: 100%;
+  padding: 0.5rem;
+}
+.localCardsWrapper .localCardsContent .blog-card .information .date {
+  font-size: 0.8rem;
+  float: right;
+}
+
+a {
+  color: #000;
+}
+a:hover, a:focus, a:focus-visible {
+  color: rgba(0, 0, 0, 0.7960784314) !important;
+}/*# sourceMappingURL=BlogCard.css.map */

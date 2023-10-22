@@ -1,0 +1,45 @@
+@import "../utilities";
+
+.application_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    @include mobile_screen {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1.5rem 0;
+    }
+
+    @include tablet_screen {
+        padding-bottom: 0.6rem;
+    }
+
+    @include desktop-screen {
+        padding-bottom: 0.3rem;
+    }
+
+    .app_card {
+        @include mobile_screen {
+            width: 90%;
+            margin: 0 auto;
+        }
+        @include tablet_screen {
+            transform: translateY(-70px);
+        }
+        @include desktop_screen {
+            transform: translateY(-70px);
+        }
+
+        background: rgba(255, 255, 255, 0.627);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        padding: 2rem 1rem;
+        width: 300px;
+        h6 {
+            padding: 0.6rem 0;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+@import "../utilities";
+
+.testimonial_container {
+    padding-top: 3.5rem;
+    width: 100vw;
+    min-height: 50vh;
+    @include mobile_screen {
+        padding: 1.5rem 0;
+    }
+
+    @include tablet_screen {
+        padding-bottom: 2rem;
+    }
+
+    @include desktop_screen {
+        padding-bottom: 2.5rem;
+    }
+
+    .glassy_div {
+        padding: 2rem 1rem;
+        text-align: center;
+        background-color: #eaecb5ce;
+
+        .header {
+            margin-bottom: 2rem;
+        }
+
+        .testimonial-div {
+            height: 150px;
+            padding-top: 1rem;
+            @include mobile_screen {
+                height: 190px;
+            }
+
+            @include mobile_screen {
+                height: 250px;
+            }
+            .text {
+                display: flex;
+                flex-direction: column;
+                width: 70%;
+                margin: 0 auto;
+                font-family: "Times New Roman", Times, serif;
+                .by {
+                    margin-top: 1rem;
+                    color: $primary-blue;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.EachCard_container {
+  width: 100vw;
+  height: 100vh;
+}
+@media (max-width: 770px) {
+  .EachCard_container {
+    padding-top: 3.6rem;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .EachCard_container {
+    padding-top: 4.7rem;
+  }
+}
+@media (min-width: 992px) {
+  .EachCard_container {
+    padding-top: 4.7rem;
+  }
+}
+.EachCard_container .main_card_content header {
+  height: 40vh;
+  padding: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(90deg, hsl(205, 46%, 10%) 0%, hsl(191, 28%, 23%) 50%, hsl(207, 41%, 27%) 100%) !important;
+  background-blend-mode: multiply;
+  position: relative;
+}
+.EachCard_container .main_card_content header h1 {
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  left: 30px;
+  bottom: 10px;
+}
+.EachCard_container .main_card_content .text_content {
+  padding-top: 1rem;
+  margin: 0 auto;
+}
+@media (max-width: 770px) {
+  .EachCard_container .main_card_content .text_content {
+    width: 90%;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .EachCard_container .main_card_content .text_content {
+    width: 70%;
+  }
+}
+@media (min-width: 992px) {
+  .EachCard_container .main_card_content .text_content {
+    width: 70%;
+  }
+}
+.EachCard_container .main_card_content .text_content .example {
+  font-weight: bold;
+}/*# sourceMappingURL=EachCard.css.map */

@@ -1,0 +1,28 @@
+@import "../utilities";
+
+.settings {
+    position: fixed;
+    bottom: 50px;
+    left: 20px;
+    z-index: 90;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 600ms background-color;
+    color: #000;
+    background: $second-yellow;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.025);
+    cursor: pointer;
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: darken($color: $primary-white, $amount: 30);
+        outline: none;
+    }
+}

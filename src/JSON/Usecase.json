@@ -1,0 +1,238 @@
+[
+    {
+        "id": 1,
+        "use_case": "Plastic Recycling",
+        "description": "Collecting and processing plastic waste to create new products, reducing the environmental impact of plastic pollution.",
+        "examples": [
+            "PET bottles",
+            "HDPE containers",
+            "LDPE bags",
+            "PP packaging"
+        ]
+    },
+    {
+        "id": 2,
+        "use_case": "Composting",
+        "description": "Converting organic waste, such as food scraps and yard trimmings, into nutrient-rich compost, enriching soils and reducing landfill usage.",
+        "examples": [
+            "Fruit and vegetable peels",
+            "Coffee grounds",
+            "Grass clippings",
+            "Paper towels"
+        ]
+    },
+    {
+        "id": 3,
+        "use_case": "E-waste Recycling",
+        "description": "Responsible disposal and recycling of electronic waste, recovering valuable resources and preventing hazardous materials from entering the environment.",
+        "examples": ["Smartphones", "Laptops", "Televisions", "Printers"]
+    },
+    {
+        "id": 4,
+        "use_case": "Upcycling",
+        "description": "Transforming waste materials into new products of higher value and extended usability, promoting creativity and sustainability.",
+        "examples": [
+            "Repurposing glass bottles into decorative vases",
+            "Creating fashion items from discarded textiles",
+            "Using old tires to make playground equipment"
+        ]
+    },
+    {
+        "id": 5,
+        "use_case": "Medical Waste Management",
+        "description": "Safe handling and disposal of medical waste to protect healthcare workers, patients, and the environment from potential health hazards.",
+        "examples": [
+            "Used syringes",
+            "Contaminated gloves",
+            "Expired medications",
+            "Biomedical waste"
+        ]
+    },
+    {
+        "id": 6,
+        "use_case": "Paper Recycling",
+        "description": "Collecting and recycling paper waste to save energy, water, and trees, and reduce greenhouse gas emissions.",
+        "examples": [
+            "Newspapers",
+            "Cardboard boxes",
+            "Office paper",
+            "Magazines"
+        ]
+    },
+    {
+        "id": 7,
+        "use_case": "Glass Recycling",
+        "description": "Collecting and processing glass waste to create new glass products, saving raw materials and reducing energy consumption.",
+        "examples": ["Bottles", "Jars", "Window glass", "Glass containers"]
+    },
+    {
+        "id": 8,
+        "use_case": "Metal Scrap Recycling",
+        "description": "Collecting and recycling metal waste to conserve natural resources and reduce greenhouse gas emissions associated with metal production.",
+        "examples": [
+            "Aluminum cans",
+            "Steel scraps",
+            "Copper wires",
+            "Brass components"
+        ]
+    },
+    {
+        "id": 9,
+        "use_case": "Hazardous Waste Disposal",
+        "description": "Safe handling and disposal of hazardous waste, including materials that are toxic, flammable, corrosive, or reactive, to protect public health and the environment.",
+        "examples": [
+            "Chemical waste",
+            "Batteries",
+            "Paints and solvents",
+            "Electronic waste containing hazardous materials"
+        ]
+    },
+    {
+        "id": 10,
+        "use_case": "Textile Recycling",
+        "description": "Reprocessing textile waste to create new clothing, accessories, or materials, reducing the demand for virgin textiles and minimizing environmental impacts.",
+        "examples": [
+            "Old clothes",
+            "Damaged fabrics",
+            "Used linens",
+            "Unsold garments"
+        ]
+    },
+    {
+        "id": 11,
+        "use_case": "Food Waste Reduction",
+        "description": "Minimizing food waste through better management, distribution, and consumption practices, reducing methane emissions from landfills and conserving resources.",
+        "examples": [
+            "Expired food products",
+            "Leftover meals",
+            "Unsold produce",
+            "Spoiled food"
+        ]
+    },
+    {
+        "id": 12,
+        "use_case": "Biomass Energy Generation",
+        "description": "Converting organic waste, such as agricultural residues and animal waste, into renewable energy sources like biogas or biofuels.",
+        "examples": ["Crop residues", "Animal manure", "Food processing waste"]
+    },
+    {
+        "id": 13,
+        "use_case": "Wastewater Treatment",
+        "description": "Treating and purifying wastewater to remove pollutants and contaminants, protecting water resources and aquatic ecosystems.",
+        "examples": ["Sewage", "Industrial effluents", "Stormwater runoff"]
+    },
+    {
+        "id": 14,
+        "use_case": "Construction Waste Recycling",
+        "description": "Reusing or recycling construction waste, such as concrete, wood, and metal, to reduce landfill usage and conserve resources.",
+        "examples": [
+            "Demolition debris",
+            "Bricks and tiles",
+            "Concrete rubble",
+            "Lumber and timber scraps"
+        ]
+    },
+    {
+        "id": 15,
+        "use_case": "Biohazard Waste Disposal",
+        "description": "Proper handling and disposal of biohazard waste, including biological materials and contaminated lab equipment, to prevent the spread of infections and protect public health.",
+        "examples": [
+            "Medical waste",
+            "Microbiological cultures",
+            "Sharps waste",
+            "Pathological waste"
+        ]
+    },
+    {
+        "id": 16,
+        "use_case": "Oil and Grease Recycling",
+        "description": "Recovering and recycling used cooking oils and greases to create biofuels or other products, preventing clogs in sewer systems and reducing environmental contamination.",
+        "examples": [
+            "Cooking oil from restaurants",
+            "Grease trap waste",
+            "Industrial oils and lubricants"
+        ]
+    },
+    {
+        "id": 17,
+        "use_case": "Construction Debris Management",
+        "description": "Proper handling and disposal of debris from construction sites, ensuring safe and efficient waste removal.",
+        "examples": [
+            "Demolition waste",
+            "Building materials",
+            "Plaster and drywall",
+            "Pallets and crates"
+        ]
+    },
+    {
+        "id": 18,
+        "use_case": "Tyre Recycling",
+        "description": "Reusing or recycling old tires for various applications, including rubberized asphalt, playground surfaces, and rubber mats.",
+        "examples": ["Used car tires", "Truck tires", "Bicycle tires"]
+    },
+    {
+        "id": 19,
+        "use_case": "Waste-to-Energy Conversion",
+        "description": "Generating energy from non-recyclable waste materials through various technologies like incineration, gasification, or anaerobic digestion.",
+        "examples": [
+            "Plastic waste-to-fuel",
+            "Municipal solid waste incineration",
+            "Methane capture from landfills"
+        ]
+    },
+    {
+        "id": 20,
+        "use_case": "Electronic Waste Reuse",
+        "description": "Refurbishing and reusing electronic waste for extended product life, reducing electronic waste streams and conserving resources.",
+        "examples": [
+            "Refurbished laptops",
+            "Reconditioned smartphones",
+            "Second-hand electronics"
+        ]
+    },
+    {
+        "id": 21,
+        "use_case": "Battery Recycling",
+        "description": "Recycling used batteries to recover valuable materials and prevent hazardous substances from contaminating the environment.",
+        "examples": [
+            "Alkaline batteries",
+            "Lithium-ion batteries",
+            "Lead-acid batteries"
+        ]
+    },
+    {
+        "id": 22,
+        "use_case": "Bottled Water Reduction",
+        "description": "Promoting the use of reusable water bottles and tap water to reduce the environmental impact of single-use plastic bottles.",
+        "examples": [
+            "Single-use plastic water bottles",
+            "Disposable beverage containers"
+        ]
+    },
+    {
+        "id": 23,
+        "use_case": "Recycled Art and Craft",
+        "description": "Creating art and craft items using recycled materials, promoting creativity and environmental awareness.",
+        "examples": [
+            "Sculptures made from discarded metal",
+            "Artwork using recycled paper",
+            "Handmade jewelry from upcycled materials"
+        ]
+    },
+    {
+        "id": 24,
+        "use_case": "Green Building Materials",
+        "description": "Using sustainable and recycled materials in construction to reduce environmental impact and promote energy efficiency.",
+        "examples": ["Recycled concrete", "Bamboo flooring", "Reclaimed wood"]
+    },
+    {
+        "id": 25,
+        "use_case": "Zero Waste Initiatives",
+        "description": "Implementing strategies to minimize waste generation and divert materials from landfills, aiming for zero waste to landfills or incineration.",
+        "examples": [
+            "Source separation and recycling programs",
+            "Comprehensive waste reduction policies",
+            "Food waste prevention initiatives"
+        ]
+    }
+]

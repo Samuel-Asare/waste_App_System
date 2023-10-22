@@ -1,0 +1,67 @@
+.cards_outerDiv {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  height: 100%;
+  width: 100%;
+  padding: 5rem 0.9rem 0;
+}
+.cards_outerDiv .card {
+  background: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 4px 8px 0 rgba(31, 38, 135, 0.113);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 4px;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 0.5rem;
+  transition: ease-in 600ms all;
+  overflow-x: hidden;
+}
+.cards_outerDiv .card h1 {
+  height: 40px;
+  font-size: 1rem;
+}
+.cards_outerDiv .card p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.cards_outerDiv .card .mini-details {
+  width: 100%;
+}
+.cards_outerDiv .card .mini-details .steps {
+  float: right;
+  font-size: 0.7rem;
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: rgba(5, 5, 5, 0.396);
+}
+.cards_outerDiv .card .mini-details .steps .number {
+  width: 20px;
+  height: 20px;
+  border-radius: 50% !important;
+  background-color: #646cff;
+  display: grid;
+  place-content: center;
+  color: #fff;
+  margin-right: 0.3rem;
+}
+.cards_outerDiv .card button {
+  background-color: transparent;
+  padding: 0.2rem 1rem !important;
+  border-radius: 4rem;
+  transition: ease-in-out 600ms all;
+  font-weight: normal;
+  background-color: #f0eeee;
+  font-size: 0.9rem;
+}
+.cards_outerDiv .card button:hover, .cards_outerDiv .card button:focus-visible, .cards_outerDiv .card button:focus {
+  background-color: #e4e3e3;
+  color: #646cff;
+}
+.cards_outerDiv .card:hover {
+  background-color: rgba(204, 204, 204, 0.25);
+  cursor: pointer;
+}/*# sourceMappingURL=Cards.css.map */

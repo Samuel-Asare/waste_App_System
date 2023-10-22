@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Global Waste Crisis: A Looming Threat to Our Planet",
+        "description": "Discuss the escalating waste crisis worldwide, underscoring its environmental and social implications. Present statistics and facts that underline the urgency for global action.",
+        "key": 11,
+        "date": "20/10/2023"
+    },
+    {
+        "title": "Plastic Pandemic: Confronting the Plastic Waste Epidemic",
+        "description": "Address the alarming rise in plastic pollution on a global scale, highlighting its far-reaching consequences and the urgent need for international collaboration to combat it.",
+        "key": 12,
+        "date": "19/3/2023"
+    },
+    {
+        "title": "Waste and Climate Change: Understanding the Link and Taking Action",
+        "description": " Explore the connection between waste generation and climate change, emphasizing the importance of waste reduction in mitigating climate impacts and achieving sustainability goals.",
+        "key": 13,
+        "date": "24/10/2023"
+    },
+    {
+        "title": "E-Waste Woes: The Rising Challenge of Electronic Waste",
+        "description": "Shed light on the mounting issue of electronic waste globally, exploring the environmental and health hazards it poses, and advocating for responsible e-waste management.",
+        "key": 14,
+        "date": "05/12/2023"
+    },
+    {
+        "title": "Oceans at Risk: Battling Marine Debris and Ocean Pollution",
+        "description": "Discuss the critical state of our oceans due to marine debris and pollution, featuring efforts and strategies by international organizations to preserve marine ecosystems.",
+        "key": 15,
+        "date": "03/8/2023"
+    },
+    {
+        "title": "Circular Economy: A Global Paradigm Shift Towards Sustainability",
+        "description": "Highlight the growing global movement towards a circular economy, where products are designed to be recycled and reused, reducing waste and promoting sustainability.",
+        "key": 16,
+        "date": "04/10/2023"
+    },
+    {
+        "title": "Innovations in Waste Management: A Worldwide Perspective",
+        "description": "Present innovative waste management practices and technologies from various countries, demonstrating how innovation is driving sustainable waste solutions on a global scale.",
+        "key": 17,
+        "date": "09/10/2023"
+    },
+    {
+        "title": "Trash Mountains: Confronting Landfill Issues Around the World",
+        "description": "Expose the challenges and environmental hazards posed by landfills worldwide, offering insights into modern waste management techniques to minimize landfill impact.",
+        "key": 18,
+        "date": "07/1/2023"
+    },
+    {
+        "title": "Waste Reduction Targets: International Agreements for a Greener Future",
+        "description": "Explore international agreements and goals set by countries to reduce waste and improve waste management practices, illustrating the global commitment to environmental sustainability.",
+        "key": 19,
+        "date": "01/10/2023"
+    },
+    {
+        "title": "Waste-to-Energy: Harnessing Waste for Sustainable Power Generation",
+        "description": "Discuss how waste-to-energy initiatives are gaining traction globally, exploring how waste can be a valuable resource for generating clean energy while reducing landfill burden.",
+        "key": 20,
+        "date": "09/10/2023"
+    }
+]

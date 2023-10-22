@@ -1,0 +1,93 @@
+.learn_container {
+  width: 100vw;
+  padding-bottom: 2rem;
+  position: relative;
+}
+@media (max-width: 770px) {
+  .learn_container {
+    padding-top: 4.3rem;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .learn_container {
+    padding-top: 5rem;
+  }
+}
+@media (min-width: 992px) {
+  .learn_container {
+    padding-top: 5rem;
+  }
+}
+.learn_container .search {
+  background-color: rgba(245, 245, 245, 0.354);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  padding: 1.5rem 1rem 1rem;
+  position: fixed;
+  z-index: 2;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -0.5rem auto 0;
+}
+@media (max-width: 770px) {
+  .learn_container .search {
+    margin: -0.9rem auto 0;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .learn_container .search {
+    width: 100vw;
+  }
+}
+.learn_container .search input {
+  padding: 0.5rem;
+  border-radius: 4rem;
+  outline: none;
+  border: 1px solid #646cff;
+}
+@media (max-width: 770px) {
+  .learn_container .search input {
+    width: 88%;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .learn_container .search input {
+    width: 60%;
+  }
+}
+@media (min-width: 992px) {
+  .learn_container .search input {
+    width: 60%;
+  }
+}
+.learn_container .load_button {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.learn_container .load_button .load_more_btn {
+  border: 1px solid #646cff;
+  background-color: #979cff;
+  color: #000000;
+  margin-top: 2rem;
+  width: 10%;
+  transition: ease-in-out 600ms all;
+  border-radius: 3rem;
+}
+.learn_container .load_button .load_more_btn:hover {
+  background-color: #646cff;
+  color: #fff;
+}
+@media (max-width: 770px) {
+  .learn_container .load_button .load_more_btn {
+    width: 40%;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .learn_container .load_button .load_more_btn {
+    width: 40%;
+  }
+}/*# sourceMappingURL=Learn.css.map */

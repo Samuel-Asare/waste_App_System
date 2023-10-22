@@ -1,0 +1,117 @@
+.overlay {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  bottom: 0;
+  right: 0;
+  z-index: 70;
+  background-color: rgba(0, 0, 0, 0.8470588235);
+  transition: ease-in-out 550ms left;
+}
+.overlay .left_sideBar {
+  position: fixed;
+  right: -100%;
+  top: 0;
+  bottom: 0;
+  background-color: #646cff;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4274509804);
+  z-index: 70;
+  transition: ease-in-out 600ms right;
+  border-left: 1.5px solid #fff;
+}
+@media (max-width: 770px) {
+  .overlay .left_sideBar {
+    width: 60%;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .overlay .left_sideBar {
+    width: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .overlay .left_sideBar {
+    width: 300px;
+  }
+}
+.overlay .left_sideBar .content {
+  background-color: #f0f0f0;
+  height: 100%;
+  width: 98%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2rem 0;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.overlay .left_sideBar .content .menus {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.overlay .left_sideBar .content .menus a,
+.overlay .left_sideBar .content .menus button {
+  color: rgba(0, 0, 0, 0.6549019608);
+  padding: 0.3rem 2rem 0.3rem 2rem;
+  text-decoration: none;
+  border: 1px solid #9daec2;
+  border-left: none;
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.overlay .left_sideBar .content .menus a:hover,
+.overlay .left_sideBar .content .menus button:hover {
+  background-color: #646cff;
+  color: #fff;
+}
+.overlay .left_sideBar .content .toggle_div {
+  width: 100%;
+  height: 1.88rem;
+}
+.overlay .left_sideBar .content .toggle_div .toggle_button {
+  width: 65px;
+  height: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  background-color: #646cff;
+  border-radius: 4rem;
+  position: relative;
+  padding: 1rem !important;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.overlay .left_sideBar .content .toggle_div .toggle_button .circle {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  background-color: #8da1b8;
+  border-radius: 50%;
+  position: absolute;
+  right: 2px;
+  transition: ease-in-out 600ms right;
+  cursor: pointer;
+}
+.overlay .left_sideBar .content .toggle_div .toggle_button p {
+  cursor: pointer;
+  margin: 0 -12px;
+  font-size: 0.7rem;
+}
+.overlay .left_sideBar .content .toggle_div .toggle_button p:first-child {
+  color: #646cff;
+}/*# sourceMappingURL=LeftSideBar.css.map */

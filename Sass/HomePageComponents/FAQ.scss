@@ -1,0 +1,49 @@
+@import "../utilities";
+
+.faq_wrapper {
+    margin: 0 auto;
+    padding: 1rem 0;
+    @include mobile-screen {
+        width: 90%;
+    }
+    @include desktop_screen {
+        width: 90%;
+    }
+    @include tablet_screen {
+        width: 90%;
+    }
+
+    .content {
+        .questionmark_icon {
+            color: $second-yellow;
+        }
+        h2 {
+            margin-bottom: 1.5rem;
+            display: flex;
+            column-gap: 0.5rem;
+        }
+        .questions_div {
+            margin: 0 auto;
+            display: grid;
+            row-gap: 0.5rem;
+
+            @include mobile-screen {
+                width: 100%;
+            }
+            @include desktop_screen {
+                width: 90%;
+            }
+            @include tablet_screen {
+                width: 90%;
+            }
+
+            .accordion {
+                border-radius: 0;
+                box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.186);
+                backdrop-filter: blur(4px);
+                -webkit-backdrop-filter: blur(4px);
+                border: 1px solid rgba(255, 255, 255, 0.18);
+            }
+        }
+    }
+}

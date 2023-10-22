@@ -1,0 +1,63 @@
+@import "../utilities";
+
+.EachCard_container {
+    width: 100vw;
+    height: 100vh;
+    @include mobile_screen {
+        padding-top: 3.6rem;
+    }
+
+    @include tablet_screen {
+        padding-top: 4.7rem;
+    }
+
+    @include desktop_screen {
+        padding-top: 4.7rem;
+    }
+    .main_card_content {
+        header {
+            height: 40vh;
+            padding: 1rem;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            // background-color: lighten($color: #000000, $amount: 30);
+            background: linear-gradient(
+                90deg,
+                hsla(205, 46%, 10%, 1) 0%,
+                hsla(191, 28%, 23%, 1) 50%,
+                hsla(207, 41%, 27%, 1) 100%
+            ) !important;
+
+            background-blend-mode: multiply;
+            position: relative;
+            h1 {
+                color: #fff;
+                text-transform: uppercase;
+                position: absolute;
+                left: 30px;
+                bottom: 10px;
+            }
+        }
+        .text_content {
+            padding-top: 1rem;
+            margin: 0 auto;
+            @include mobile_screen {
+                width: 90%;
+            }
+
+            @include tablet_screen {
+                width: 70%;
+            }
+
+            @include desktop_screen {
+                width: 70%;
+            }
+
+            .example {
+                font-weight: bold;
+            }
+        }
+    }
+}

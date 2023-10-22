@@ -1,0 +1,36 @@
+@import "../utilities";
+
+.bannerContainer {
+    width: 100%;
+    padding: 1rem;
+    .bannerContent {
+        border-radius: 0.3rem;
+        height: 230px;
+        display: grid;
+        place-content: center;
+        position: relative;
+        overflow: hidden;
+        color: #ffffff;
+        background-color: rgb(1, 25, 6);
+
+        @include desktop_screen {
+            margin: 0 auto;
+            width: 97%;
+        }
+
+        @include tablet_screen {
+            margin: 0 auto;
+            width: 97%;
+        }
+
+        @include mobile-screen {
+            width: 100%;
+        }
+
+        h5 {
+            z-index: 2;
+            background-color: #00000075;
+            text-align: center;
+        }
+    }
+}

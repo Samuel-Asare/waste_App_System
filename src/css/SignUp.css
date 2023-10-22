@@ -1,0 +1,141 @@
+.signup_container {
+  padding-top: 2.3rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup_container .sign_content {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #000;
+  flex-direction: column;
+  display: flex;
+  padding: 1rem;
+}
+@media (max-width: 770px) {
+  .signup_container .sign_content {
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    min-width: 400px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .signup_container .sign_content {
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    min-width: 350px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 992px) {
+  .signup_container .sign_content {
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    margin: 0 auto;
+  }
+}
+.signup_container .sign_content header {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.7em;
+  margin-bottom: 0.7em;
+}
+.signup_container .sign_content header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.signup_container .sign_content header .google_text {
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.signup_container .sign_content header p #link_item {
+  color: #646cff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.signup_container .sign_content form {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.signup_container .sign_content form fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8em;
+  margin-bottom: 1rem;
+}
+.signup_container .sign_content form fieldset input {
+  padding: 0.5em 0.8em;
+  outline: none;
+  background-color: rgba(62, 61, 61, 0.6352941176);
+  border: none;
+  color: #fff;
+  border-radius: 0.3em;
+  border: 1px solid transparent;
+}
+.signup_container .sign_content form fieldset input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.568627451);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+.signup_container .sign_content form fieldset input::placeholder {
+  color: rgba(255, 255, 255, 0.568627451);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+.signup_container .sign_content form fieldset input:focus {
+  border: 1px solid rgba(255, 255, 255, 0.6078431373);
+}
+.signup_container .sign_content form fieldset .email::-moz-placeholder {
+  text-transform: lowercase;
+}
+.signup_container .sign_content form fieldset .email::placeholder {
+  text-transform: lowercase;
+}
+.signup_container .sign_content form fieldset .subscribe_label {
+  display: flex;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.signup_container .sign_content form fieldset .subscribe_label #subscribe {
+  margin-top: 0.3rem;
+}
+.signup_container .sign_content form fieldset .subscribe_label p {
+  font-size: 0.9rem;
+}
+.signup_container .sign_content form fieldset .submit_btn {
+  width: 40%;
+  margin: 0 auto;
+  padding: 0.6em 0.1em;
+  border-radius: 4em;
+  outline: none;
+  border: 1px solid #fff;
+  background-color: #646cff;
+  color: rgba(255, 255, 255, 0.7843137255);
+  font-weight: bold;
+  transition: ease-in-out 600ms;
+  cursor: pointer;
+}
+.signup_container .sign_content form fieldset .submit_btn:hover {
+  background-color: #979cff;
+  color: #000;
+}
+
+.errorMessage {
+  font-size: 0.9rem;
+  color: red;
+}/*# sourceMappingURL=SignUp.css.map */

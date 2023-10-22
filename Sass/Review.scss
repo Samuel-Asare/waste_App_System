@@ -1,0 +1,99 @@
+@import "./utilities";
+
+.review-container {
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    @include mobile_screen {
+        padding-top: 3.3rem;
+    }
+
+    @include tablet_screen {
+        padding-top: 4rem;
+    }
+
+    @include desktop_screen {
+        padding-top: 4rem;
+    }
+
+    .infor-div {
+        @include tablet_screen {
+            padding-top: 5rem !important;
+        }
+        .content {
+            width: 90% !important;
+            margin: 0 auto;
+        }
+    }
+    .Reviewcontainer {
+        flex: 1;
+        height: 50%;
+        width: 70%;
+        margin: 0 auto;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        padding: 2.5rem 2rem 1rem;
+
+        @include tablet_screen {
+            width: 90%;
+            gap: 1rem;
+            padding-top: 3rem;
+        }
+
+        @include mobile_screen {
+            width: 100%;
+        }
+
+        a {
+            .tag {
+                text-align: center;
+                background: rgba(255, 255, 255, 0.25);
+                box-shadow: 0 8px 8px 0 rgba(31, 38, 135, 0.37);
+                backdrop-filter: blur(4px);
+                -webkit-backdrop-filter: blur(4px);
+                border-radius: 10px;
+                border: 1px solid rgba(255, 255, 255, 0.18);
+                display: grid;
+                place-content: center;
+                &:hover {
+                    box-shadow: 0 8px 8px 0 rgba(31, 38, 135, 0.219);
+                }
+                div {
+                    width: 90%;
+                    margin: 0 auto;
+                    h6 {
+                        color: $primary-blue;
+                    }
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .infor-div {
+        width: 100%;
+        min-height: 20%;
+
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .content {
+            text-align: center;
+            width: 70%;
+            p {
+                font-size: 0.9rem;
+                width: 80%;
+                margin: 0 auto;
+                color: lighten($color: #000000, $amount: 20);
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.connect_With_Us {
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+@media (max-width: 770px) {
+  .connect_With_Us {
+    padding: 1.5rem 0;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .connect_With_Us {
+    padding-bottom: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .connect_With_Us {
+    padding-bottom: 2.5rem;
+  }
+}
+.connect_With_Us .glassy_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgba(100, 108, 255, 0.2509803922), rgba(222, 223, 187, 0.3254901961));
+  padding: 1.5rem 1rem;
+}
+@media (max-width: 770px) {
+  .connect_With_Us .glassy_div {
+    padding: 2rem 0;
+  }
+}
+.connect_With_Us .glassy_div .content {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+@media (max-width: 770px) {
+  .connect_With_Us .glassy_div .content {
+    text-align: center;
+    width: 80%;
+  }
+}
+.connect_With_Us .glassy_div .content .brandName {
+  color: #646cff;
+  padding-bottom: 1rem;
+  cursor: default;
+}
+.connect_With_Us .glassy_div .content .connect_text {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+.connect_With_Us .glassy_div .content .button {
+  background-color: #646cff;
+  text-transform: capitalize;
+}/*# sourceMappingURL=ConnectWithUs.css.map */

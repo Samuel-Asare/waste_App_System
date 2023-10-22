@@ -1,0 +1,96 @@
+.review-container {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 770px) {
+  .review-container {
+    padding-top: 3.3rem;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .review-container {
+    padding-top: 4rem;
+  }
+}
+@media (min-width: 992px) {
+  .review-container {
+    padding-top: 4rem;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .review-container .infor-div {
+    padding-top: 5rem !important;
+  }
+}
+.review-container .infor-div .content {
+  width: 90% !important;
+  margin: 0 auto;
+}
+.review-container .Reviewcontainer {
+  flex: 1;
+  height: 50%;
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  padding: 2.5rem 2rem 1rem;
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .review-container .Reviewcontainer {
+    width: 90%;
+    gap: 1rem;
+    padding-top: 3rem;
+  }
+}
+@media (max-width: 770px) {
+  .review-container .Reviewcontainer {
+    width: 100%;
+  }
+}
+.review-container .Reviewcontainer a .tag {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 8px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: grid;
+  place-content: center;
+}
+.review-container .Reviewcontainer a .tag:hover {
+  box-shadow: 0 8px 8px 0 rgba(31, 38, 135, 0.219);
+}
+.review-container .Reviewcontainer a .tag div {
+  width: 90%;
+  margin: 0 auto;
+}
+.review-container .Reviewcontainer a .tag div h6 {
+  color: #646cff;
+}
+.review-container .Reviewcontainer a .tag div p {
+  font-size: 0.8rem;
+}
+.review-container .infor-div {
+  width: 100%;
+  min-height: 20%;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.review-container .infor-div .content {
+  text-align: center;
+  width: 70%;
+}
+.review-container .infor-div .content p {
+  font-size: 0.9rem;
+  width: 80%;
+  margin: 0 auto;
+  color: #333333;
+}/*# sourceMappingURL=Review.css.map */

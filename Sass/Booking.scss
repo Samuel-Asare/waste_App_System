@@ -1,0 +1,57 @@
+@import "./utilities";
+
+.connet_wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    .booking {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 3rem;
+        position: relative;
+
+        .alert {
+            position: sticky;
+            top: 13%;
+            margin: 0 auto;
+            z-index: 2;
+        }
+
+        .MuiSvgIcon-root {
+            circle {
+                color: $primary-blue;
+            }
+        }
+
+        label {
+            color: #000000bb !important;
+        }
+
+        button {
+            color: #fff;
+            background-color: $primary-blue !important;
+        }
+
+        .datelocal {
+            .datecontainer {
+                .datetime {
+                    margin: 1.3rem 0 0 1rem;
+
+                    @include mobile-screen {
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+
+        .connect_glassy_div {
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.193);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            border-radius: 5px;
+        }
+    }
+}

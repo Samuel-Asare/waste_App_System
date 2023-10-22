@@ -1,0 +1,99 @@
+@import "../_utilities";
+
+.Service {
+    padding: 1rem;
+    width: 100vw;
+    height: fit-content;
+
+    @include mobile_screen {
+        padding: 1.5rem 0;
+    }
+
+    @include tablet_screen {
+        padding-bottom: 1rem;
+    }
+
+    @include desktop_screen {
+        padding-bottom: 2rem;
+    }
+
+    .glassy_div {
+        background-color: $glassy_div_color-blue;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @include tablet_screen {
+            flex-direction: column;
+        }
+        @include mobile-screen {
+            flex-direction: column;
+        }
+        .text {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            padding: 1rem;
+            @include desktop_screen {
+                order: 2;
+            }
+
+            @include mobile_screen {
+                text-align: center;
+            }
+
+            h2 {
+                color: #000;
+                font-weight: bold;
+                margin-bottom: 1rem;
+            }
+
+            .header_p_text {
+                color: lighten($color: #000000, $amount: 10);
+            }
+
+            @include desktop_screen {
+                width: 45%;
+            }
+
+            .service_div {
+                display: grid;
+                gap: 1rem;
+                grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+
+                .service_item {
+                    padding: 0.5rem;
+                    background: rgba(255, 255, 255, 0.627);
+                    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+                    backdrop-filter: blur(4px);
+                    -webkit-backdrop-filter: blur(4px);
+                    border-top-right-radius: 20px !important;
+                    border-bottom-left-radius: 20px !important;
+                    border-radius: 5px;
+                    border: 1px solid rgba(255, 255, 255, 0.18);
+                    position: relative;
+
+                    p {
+                        // padding-bottom: 1rem;
+                        font-size: 0.855rem;
+                    }
+                }
+            }
+        }
+        .image_div {
+            flex: 1;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            @include desktop_screen {
+                order: 1;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}

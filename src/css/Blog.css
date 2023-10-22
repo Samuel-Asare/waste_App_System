@@ -1,0 +1,28 @@
+.blog_container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+}
+.blog_container .menu_btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #646cff;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+  display: none;
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .blog_container .menu_btn {
+    display: grid;
+  }
+}
+@media (max-width: 770px) {
+  .blog_container .menu_btn {
+    display: grid;
+  }
+}/*# sourceMappingURL=Blog.css.map */

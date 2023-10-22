@@ -1,0 +1,370 @@
+[
+    {
+        "id": 1,
+        "project": "Wine Bottle Chandelier",
+        "what_we_can_learn": "Learn creative lighting design and glass bottle upcycling techniques.",
+        "long_description": "Transform your old wine bottles into a stunning chandelier that adds a touch of elegance to your home decor. This upcycling project combines eco-consciousness with creativity, as you learn to repurpose wine bottles that would otherwise end up in the recycling bin or landfill.",
+        "steps": [
+            "Gather empty wine bottles and clean them thoroughly.",
+            "Remove the labels and adhesive residues from the bottles.",
+            "Cut off the bottoms of the bottles using a glass cutter.",
+            "Sand the cut edges for a smooth finish.",
+            "Create a chandelier frame using metal or wood.",
+            "Attach the wine bottles to the frame using wire or clips.",
+            "Install a light fixture inside each bottle.",
+            "Hang the chandelier in your desired location and enjoy the unique ambiance it creates."
+        ]
+    },
+    {
+        "id": 2,
+        "project": "Denim Patchwork Rug",
+        "what_we_can_learn": "Learn textile upcycling, patchwork design, and rug-making techniques.",
+        "long_description": "Give new life to your old denim jeans by creating a stylish patchwork rug. This upcycling project not only reduces textile waste but also allows you to experiment with colors and patterns to design a one-of-a-kind rug for your living space. Through this creative endeavor, you'll discover the art of repurposing textiles and the satisfaction of crafting something beautiful from discarded materials.",
+        "steps": [
+            "Collect old denim jeans of various colors.",
+            "Cut the denim fabric into square or rectangular patches.",
+            "Arrange the patches in a desired pattern or design.",
+            "Sew the patches together using a sewing machine or hand-stitching.",
+            "Attach a fabric backing to the patchwork to strengthen the rug.",
+            "Add a non-slip rug pad underneath for stability.",
+            "Place the denim patchwork rug in your living room, bedroom, or entryway to add a touch of rustic charm to your home."
+        ]
+    },
+    {
+        "id": 3,
+        "project": "Pallet Wood Garden Bench",
+        "what_we_can_learn": "Learn woodworking, furniture design, and outdoor upcycling.",
+        "long_description": "Upcycle discarded pallets into a functional and stylish garden bench. This upcycling project offers a great opportunity to learn basic woodworking skills and create a custom piece of furniture for your outdoor space. By repurposing pallets, you'll contribute to reducing wood waste and promote sustainable outdoor living.",
+        "steps": [
+            "Find used wooden pallets in good condition.",
+            "Dismantle the pallets and remove any nails or staples.",
+            "Measure and cut the pallet pieces to the desired bench size.",
+            "Sand the wood to create a smooth surface.",
+            "Assemble the bench using screws and wood glue.",
+            "Add a coat of weather-resistant finish to protect the wood.",
+            "Place the pallet wood garden bench in your garden or patio, and enjoy a cozy spot to relax outdoors."
+        ]
+    },
+    {
+        "id": 4,
+        "project": "Tin Can Planters",
+        "what_we_can_learn": "Learn container gardening and tin can upcycling.",
+        "long_description": "Transform used tin cans into charming planters for your indoor or outdoor plants. This upcycling project combines gardening and crafting, providing an opportunity to learn about container gardening and how to repurpose common household items into functional planters.",
+        "steps": [
+            "Clean and remove any labels from the tin cans.",
+            "Poke drainage holes in the bottom of each can using a nail and hammer.",
+            "Paint the cans with weather-resistant paint or decorate them as desired.",
+            "Fill the cans with potting soil.",
+            "Plant your favorite herbs, flowers, or small plants in the cans.",
+            "Place the tin can planters on a windowsill, balcony, or garden to add a touch of greenery to your living space."
+        ]
+    },
+    {
+        "id": 5,
+        "project": "Mason Jar Organizer",
+        "what_we_can_learn": "Learn organization skills and mason jar upcycling.",
+        "long_description": "Convert old mason jars into a practical and stylish organizer for your kitchen, bathroom, or office. This upcycling project allows you to learn the art of organization and creatively repurpose mason jars, reducing the need for single-use storage containers.",
+        "steps": [
+            "Clean the mason jars and remove any labels.",
+            "Paint the lids with chalkboard paint for labeling.",
+            "Attach the lids to the underside of a wooden shelf or board.",
+            "Screw the mason jars onto the lids to secure them in place.",
+            "Label the jars based on their contents using chalk or chalk markers.",
+            "Use the mason jar organizer to store kitchen utensils, bathroom essentials, or office supplies in a neat and accessible manner."
+        ]
+    },
+    {
+        "id": 6,
+        "project": "CD Case Picture Frames",
+        "what_we_can_learn": "Learn creative photo display and CD case upcycling.",
+        "long_description": "Turn old CD cases into unique and transparent picture frames that showcase your favorite photographs. This upcycling project encourages you to explore innovative ways to display memories and repurpose outdated technology.",
+        "steps": [
+            "Clean the CD cases and remove any paper inserts.",
+            "Trim your photos to fit inside the CD case covers.",
+            "Attach the photos to the backside of the CD case covers using adhesive tape.",
+            "Place the CD cases on a windowsill, shelf, or hang them on the wall to create a beautiful and eye-catching photo display."
+        ]
+    },
+    {
+        "id": 7,
+        "project": "Tire Swing",
+        "what_we_can_learn": "Learn outdoor play and tire upcycling.",
+        "long_description": "Transform an old tire into a classic and fun tire swing for kids and the young-at-heart. This upcycling project is an opportunity to explore outdoor play and engage in a sustainable DIY activity, reducing the environmental impact of tire waste.",
+        "steps": [
+            "Clean the tire thoroughly to remove any dirt or debris.",
+            "Drill holes on both sides of the tire for attaching ropes or chains.",
+            "Thread strong and weather-resistant ropes or chains through the holes.",
+            "Tie knots securely to create the swing's attachment points.",
+            "Find a sturdy tree branch or playground frame to hang the tire swing.",
+            "Test the swing's stability and make adjustments if needed.",
+            "Enjoy swinging outdoors and relive the joy of childhood play."
+        ]
+    },
+    {
+        "id": 8,
+        "project": "Cork Coasters",
+        "what_we_can_learn": "Learn about sustainable materials and cork upcycling.",
+        "long_description": "Repurpose used wine corks into practical and eco-friendly coasters that protect your furniture from heat and moisture. This upcycling project allows you to explore sustainable materials and learn the value of preserving natural resources.",
+        "steps": [
+            "Collect a sufficient number of wine corks.",
+            "Clean the corks and let them dry completely.",
+            "Arrange the corks in a desired pattern or shape.",
+            "Glue the corks together using strong adhesive or hot glue.",
+            "Trim the edges of the coaster to create a uniform shape.",
+            "Apply a layer of clear varnish to protect the corks and enhance their appearance.",
+            "Place the cork coasters on your coffee table or dining table to add a touch of rustic charm to your home decor."
+        ]
+    },
+    {
+        "id": 9,
+        "project": "Repurposed Bookshelf",
+        "what_we_can_learn": "Learn furniture upcycling and creative bookshelf design.",
+        "long_description": "Transform an old wooden ladder or unused pallets into a unique and functional bookshelf. This upcycling project allows you to learn furniture design and experiment with unconventional materials for storage solutions.",
+        "steps": [
+            "Find a sturdy wooden ladder or pallets in good condition.",
+            "Sand the ladder or pallets to remove any rough edges.",
+            "Paint or stain the ladder or pallets to match your interior decor.",
+            "Position the ladder horizontally against the wall or stack the pallets vertically.",
+            "Secure the ladder or pallets in place using screws and wall anchors.",
+            "Use the ladder rungs or pallet compartments as shelves to display books and decorative items."
+        ]
+    },
+    {
+        "id": 10,
+        "project": "Tin Can Wind Chimes",
+        "what_we_can_learn": "Learn about sound and wind chime design, and tin can upcycling.",
+        "long_description": "Create melodious wind chimes using tin cans and simple crafting materials. This upcycling project teaches you the principles of sound and how to design a decorative wind chime that adds a soothing musical element to your outdoor space.",
+        "steps": [
+            "Gather used tin cans of various sizes.",
+            "Remove the labels and clean the cans thoroughly.",
+            "Poke holes in the bottom of each can using a nail and hammer.",
+            "Paint the cans with weather-resistant paint or decorate them as desired.",
+            "Attach strings or wires to the cans to create multiple hanging levels.",
+            "Add decorative beads or seashells to the strings for additional charm.",
+            "Hang the tin can wind chimes outdoors, where the gentle breeze will create delightful sounds."
+        ]
+    },
+    {
+        "id": 11,
+        "project": "Magazine Rolled Wall Art",
+        "what_we_can_learn": "Learn paper upcycling and creative wall art design.",
+        "long_description": "Roll old magazine pages into colorful and textured wall art that showcases your creativity and reduces paper waste. This upcycling project enables you to experiment with paper crafting and create a stunning piece of wall decor.",
+        "steps": [
+            "Collect colorful magazine pages or catalogues.",
+            "Cut the pages into strips of equal width.",
+            "Roll each strip tightly to create paper tubes.",
+            "Glue the ends of the tubes to secure their shape.",
+            "Arrange the paper tubes into desired patterns or designs on a canvas or cardboard backing.",
+            "Glue the tubes to the backing to create a cohesive artwork.",
+            "Hang the magazine rolled wall art in your living room or bedroom as a captivating focal point."
+        ]
+    },
+    {
+        "id": 12,
+        "project": "Plastic Bottle Vertical Garden",
+        "what_we_can_learn": "Learn about vertical gardening and plastic bottle upcycling.",
+        "long_description": "Repurpose plastic bottles into a vertical garden that maximizes your growing space and reduces plastic waste. This upcycling project introduces you to vertical gardening and highlights the importance of finding innovative uses for plastic waste.",
+        "steps": [
+            "Collect empty plastic bottles of various sizes.",
+            "Cut off the top section of each bottle to create a planting container.",
+            "Drill drainage holes in the bottom of each bottle.",
+            "Attach the bottles to a wooden or metal frame, creating a vertical arrangement.",
+            "Fill each bottle with potting soil and plant your desired herbs or small plants.",
+            "Hang the plastic bottle vertical garden on a sunny wall or balcony, and watch your plants thrive."
+        ]
+    },
+    {
+        "id": 13,
+        "project": "Globe Lampshade",
+        "what_we_can_learn": "Learn globe upcycling and creative lighting design.",
+        "long_description": "Transform an old world map or globe into a captivating lampshade that sparks wanderlust and creativity. This upcycling project allows you to combine cartography and lighting design, creating a unique piece of decor that brings a sense of adventure to any room.",
+        "steps": [
+            "Find an old world map or globe.",
+            "Carefully cut the map or globe to create two hemispheres.",
+            "Apply adhesive to the edges of each hemisphere.",
+            "Attach the hemispheres to a wire or metal frame to form a globe-like shape.",
+            "Add a light bulb or LED string lights inside the globe.",
+            "Hang the globe lampshade from the ceiling or place it on a stand to illuminate your space with a sense of exploration."
+        ]
+    },
+    {
+        "id": 14,
+        "project": "Cassette Tape Wallet",
+        "what_we_can_learn": "Learn cassette tape upcycling and creative wallet design.",
+        "long_description": "Repurpose old cassette tapes into a retro-inspired and eco-friendly wallet that is sure to spark conversations. This upcycling project combines nostalgia with functionality, as you learn to transform outdated media into a fashionable accessory.",
+        "steps": [
+            "Disassemble old cassette tapes to retrieve the magnetic tape.",
+            "Clean and prepare the cassette tape material for crafting.",
+            "Create wallet templates for card slots, money compartments, and closure.",
+            "Cut the cassette tape material to match the templates.",
+            "Sew or glue the pieces together to form the wallet's structure.",
+            "Add a closure, such as a zipper or magnetic button.",
+            "Use the cassette tape wallet to carry your cards and cash with a touch of retro flair."
+        ]
+    },
+    {
+        "id": 15,
+        "project": "Tire Ottoman",
+        "what_we_can_learn": "Learn upholstery and tire upcycling.",
+        "long_description": "Upcycle an old tire into a functional and stylish ottoman that complements your interior decor. This upcycling project allows you to learn upholstery techniques and transform an ordinary tire into a comfortable seating option.",
+        "steps": [
+            "Clean the tire thoroughly to remove any dirt or debris.",
+            "Paint the tire with weather-resistant paint to enhance its appearance.",
+            "Cut a round piece of plywood to fit the top of the tire.",
+            "Add foam padding to the plywood and cover it with fabric.",
+            "Secure the fabric-covered plywood to the top of the tire using screws or glue.",
+            "Add decorative trims or details to the tire ottoman.",
+            "Place the tire ottoman in your living room or bedroom, and use it as a versatile seating or footrest option."
+        ]
+    },
+    {
+        "id": 16,
+        "project": "Vinyl Record Wall Clock",
+        "what_we_can_learn": "Learn vinyl record upcycling and clock-making.",
+        "long_description": "Repurpose old vinyl records into stylish wall clocks that evoke a sense of nostalgia and appreciation for vintage music. This upcycling project combines creativity and functionality, as you learn to transform forgotten records into decorative timepieces.",
+        "steps": [
+            "Find an old vinyl record with a design you like.",
+            "Clean the record and remove any paper or labels.",
+            "Measure and mark the clock hands' positions on the record's surface.",
+            "Drill a hole in the center of the record to accommodate the clock mechanism.",
+            "Assemble the clock mechanism according to the manufacturer's instructions.",
+            "Attach the clock hands and insert the clock movement through the hole.",
+            "Hang the vinyl record wall clock on the wall to add a musical touch to your decor."
+        ]
+    },
+    {
+        "id": 17,
+        "project": "Tin Can Lanterns",
+        "what_we_can_learn": "Learn about tin can upcycling and creative lighting design.",
+        "long_description": "Transform empty tin cans into enchanting lanterns that create a warm and inviting atmosphere. This upcycling project introduces you to the art of crafting functional and decorative lighting using readily available materials.",
+        "steps": [
+            "Clean the tin cans and remove any labels.",
+            "Fill the cans with water and freeze them to make it easier to punch holes.",
+            "Create a design or pattern on the frozen cans by punching holes with a nail and hammer.",
+            "Remove the ice and let the cans dry.",
+            "Paint the cans in your desired colors or leave them with a rustic finish.",
+            "Insert a tea light or LED candle inside each can.",
+            "Place the tin can lanterns on your patio or hang them from trees to create a magical ambiance."
+        ]
+    },
+    {
+        "id": 18,
+        "project": "Vintage Suitcase Shelves",
+        "what_we_can_learn": "Learn suitcase upcycling and creative shelf design.",
+        "long_description": "Transform vintage suitcases into stylish and functional wall shelves that exude charm and character. This upcycling project encourages you to explore unconventional shelving ideas and revive old suitcases that have lost their travel purpose.",
+        "steps": [
+            "Find vintage suitcases in good condition.",
+            "Clean the suitcases and remove any interior linings.",
+            "Open the suitcases and measure the interior space.",
+            "Cut wooden boards to fit inside the suitcases as shelves.",
+            "Paint or stain the wooden shelves to match the suitcase's exterior.",
+            "Attach the wooden shelves to the interior of the suitcases using screws or brackets.",
+            "Hang the vintage suitcase shelves on the wall to display decorative items or books."
+        ]
+    },
+    {
+        "id": 19,
+        "project": "Wine Cork Bath Mat",
+        "what_we_can_learn": "Learn about sustainable materials and cork upcycling.",
+        "long_description": "Create a cozy and eco-friendly bath mat using wine corks that adds a touch of sophistication to your bathroom decor. This upcycling project introduces you to sustainable materials and innovative ways to repurpose wine corks.",
+        "steps": [
+            "Collect a sufficient number of wine corks.",
+            "Clean the corks and let them dry completely.",
+            "Arrange the corks in a grid or pattern on a sturdy backing, such as a wooden board or mesh mat.",
+            "Glue the corks in place using strong adhesive.",
+            "Trim the edges of the bath mat for a neat finish.",
+            "Place the wine cork bath mat in front of your bathtub or shower to add comfort and style to your daily routines."
+        ]
+    },
+    {
+        "id": 20,
+        "project": "Drawer Bookshelf",
+        "what_we_can_learn": "Learn furniture upcycling and creative shelving design.",
+        "long_description": "Transform old drawers into a charming and functional bookshelf that brings character to any room. This upcycling project allows you to learn furniture design and repurpose unused drawers in an imaginative way.",
+        "steps": [
+            "Find old drawers from furniture that is no longer in use.",
+            "Sand the drawers to create a smooth surface.",
+            "Paint or stain the drawers to match your interior decor.",
+            "Arrange the drawers in a desired configuration to form the bookshelf.",
+            "Stack the drawers vertically or place them side by side.",
+            "Secure the drawers in place using screws or brackets.",
+            "Use the drawer bookshelf to display books, plants, or decorative items with a touch of rustic charm."
+        ]
+    },
+    {
+        "id": 21,
+        "project": "Tin Can Desk Organizer",
+        "what_we_can_learn": "Learn about organization and tin can upcycling.",
+        "long_description": "Transform empty tin cans into a practical and stylish desk organizer that keeps your office supplies tidy and accessible. This upcycling project introduces you to the art of organization and creative ways to repurpose tin cans.",
+        "steps": [
+            "Collect empty tin cans of various sizes.",
+            "Clean the cans and remove any labels.",
+            "Paint the cans in your desired colors or decorate them with washi tape.",
+            "Arrange the tin cans in a desired configuration on your desk.",
+            "Use the cans to store pens, pencils, scissors, and other office essentials.",
+            "You can also label the cans for better organization.",
+            "Enjoy a clutter-free and organized workspace with the tin can desk organizer."
+        ]
+    },
+    {
+        "id": 22,
+        "project": "Book Page Wall Art",
+        "what_we_can_learn": "Learn paper upcycling and creative wall art design.",
+        "long_description": "Transform old book pages into captivating wall art that celebrates the beauty of literature and reduces paper waste. This upcycling project allows you to explore creative ways to use discarded books and create unique artworks.",
+        "steps": [
+            "Select old books or damaged book pages for the artwork.",
+            "Choose a meaningful quote, passage, or image from the book pages.",
+            "Cut or tear the pages to the desired size and shape.",
+            "Arrange the pages on a canvas or cardboard backing to form your chosen design.",
+            "Glue the pages to the backing to create a cohesive artwork.",
+            "Add decorative elements, such as dried flowers or stamps, for additional charm.",
+            "Hang the book page wall art in your living room or study to inspire a love for literature."
+        ]
+    },
+    {
+        "id": 23,
+        "project": "Kitchen Utensil Holder",
+        "what_we_can_learn": "Learn kitchen organization and tin can upcycling.",
+        "long_description": "Transform empty tin cans into a practical and visually appealing kitchen utensil holder that keeps your cooking tools within reach. This upcycling project introduces you to kitchen organization and resourceful ways to repurpose tin cans in your culinary space.",
+        "steps": [
+            "Collect clean and empty tin cans of various sizes.",
+            "Remove any labels and sharp edges from the cans.",
+            "Paint the cans to match your kitchen decor or leave them with a rustic finish.",
+            "Arrange the tin cans in a desired configuration.",
+            "Secure the cans together using strong adhesive or tie them with twine or ribbon.",
+            "Place the kitchen utensils, such as spatulas, ladles, and whisks, into the tin can holder.",
+            "Keep your cooking tools organized and easily accessible on your kitchen counter."
+        ]
+    },
+    {
+        "id": 24,
+        "project": "CD Case Greenhouse",
+        "what_we_can_learn": "Learn about sustainable gardening and CD case upcycling.",
+        "long_description": "Repurpose old CD cases into a miniature greenhouse that allows you to grow herbs and small plants indoors. This upcycling project introduces you to sustainable gardening and how to create a small ecosystem for your favorite greens.",
+        "steps": [
+            "Collect empty CD cases.",
+            "Remove the plastic trays from the inside of the CD cases.",
+            "Stack the CD cases on top of each other to form the greenhouse structure.",
+            "Secure the CD cases together using strong adhesive or tape.",
+            "Fill the bottom of the greenhouse with soil.",
+            "Plant your desired herbs or small plants in the soil.",
+            "Close the CD cases to create a sealed environment for the plants.",
+            "Place the CD case greenhouse near a sunny window and watch your plants thrive."
+        ]
+    },
+    {
+        "id": 25,
+        "project": "Vintage Spoon Coat Rack",
+        "what_we_can_learn": "Learn vintage upcycling and creative coat rack design.",
+        "long_description": "Transform vintage spoons into a charming and functional coat rack that adds a touch of nostalgia to your entryway. This upcycling project allows you to explore vintage materials and repurpose old spoons in an imaginative way.",
+        "steps": [
+            "Find vintage spoons with interesting handles.",
+            "Bend the spoon handles to create hooks for hanging coats.",
+            "Arrange the spoons in a desired pattern on a wooden board.",
+            "Attach the spoons to the board using screws or strong adhesive.",
+            "Add decorative elements, such as painted patterns or stencils, to the board.",
+            "Mount the vintage spoon coat rack on the wall in your entryway or hallway.",
+            "Hang coats, scarves, and hats on the spoon hooks for a practical and nostalgic storage solution."
+        ]
+    }
+]

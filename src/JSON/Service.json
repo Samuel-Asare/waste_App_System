@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "service_name": "One-Time Pickup:",
+        "description": " Set up regular waste collection on a schedule that suits you.",
+        "button": "Book Now",
+        "to": "/connect"
+    },
+    {
+        "id": 2,
+        "service_name": "Educational Resources:",
+        "description": "Learn about sustainable waste management practices and their positive impact on the environment.",
+        "button": "Learn Now",
+        "to": "/usecase"
+    },
+    {
+        "id": 3,
+        "service_name": "Waste Separation:",
+        "description": "Discover effective techniques to separate recyclables and organic waste.",
+        "button": "Learn Now",
+        "to": "/learn"
+    },
+    {
+        "id": 4,
+        "service_name": "One-Time Pickup:",
+        "description": "4 Set up regular waste collection on a schedule that suits you.",
+        "button": "Book Now"
+    }
+]

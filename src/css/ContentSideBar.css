@@ -1,0 +1,157 @@
+@charset "UTF-8";
+.sideNavBar {
+  background-color: #646cff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+  transition: ease-in-out 600ms left;
+}
+@media (min-width: 992px) {
+  .sideNavBar {
+    width: 20%;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .sideNavBar {
+    position: absolute;
+    left: -100%;
+  }
+}
+@media (max-width: 770px) {
+  .sideNavBar {
+    position: absolute;
+    left: -100%;
+  }
+}
+.sideNavBar .largerSection {
+  flex: 1;
+  overflow-y: scroll;
+  padding-top: 5rem;
+}
+.sideNavBar .largerSection .top-stories,
+.sideNavBar .largerSection .recent-stories {
+  padding: 1rem 0 0.5rem;
+  background: rgba(19, 20, 20, 0.698);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 0.3rem;
+}
+.sideNavBar .largerSection .top-stories .header,
+.sideNavBar .largerSection .recent-stories .header {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #d7d4d4;
+  padding-left: 0.4rem;
+}
+.sideNavBar .largerSection .top-stories .header::after,
+.sideNavBar .largerSection .recent-stories .header::after {
+  content: "";
+  display: block;
+  width: 10%;
+  height: 1px;
+  background-color: #ffffff;
+}
+.sideNavBar .largerSection .top-stories ul,
+.sideNavBar .largerSection .recent-stories ul {
+  margin-bottom: 1rem !important;
+}
+.sideNavBar .largerSection .top-stories ul .topStories-wrapper,
+.sideNavBar .largerSection .top-stories ul .recentStories-wrapper,
+.sideNavBar .largerSection .recent-stories ul .topStories-wrapper,
+.sideNavBar .largerSection .recent-stories ul .recentStories-wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+.sideNavBar .largerSection .top-stories ul .topStories-wrapper a,
+.sideNavBar .largerSection .top-stories ul .recentStories-wrapper a,
+.sideNavBar .largerSection .recent-stories ul .topStories-wrapper a,
+.sideNavBar .largerSection .recent-stories ul .recentStories-wrapper a {
+  padding: 0 !important;
+}
+.sideNavBar .largerSection .top-stories ul .topStories-wrapper a .topStories-link,
+.sideNavBar .largerSection .top-stories ul .topStories-wrapper a .recentStories-link,
+.sideNavBar .largerSection .top-stories ul .recentStories-wrapper a .topStories-link,
+.sideNavBar .largerSection .top-stories ul .recentStories-wrapper a .recentStories-link,
+.sideNavBar .largerSection .recent-stories ul .topStories-wrapper a .topStories-link,
+.sideNavBar .largerSection .recent-stories ul .topStories-wrapper a .recentStories-link,
+.sideNavBar .largerSection .recent-stories ul .recentStories-wrapper a .topStories-link,
+.sideNavBar .largerSection .recent-stories ul .recentStories-wrapper a .recentStories-link {
+  color: #b3b3b3;
+  font-size: 0.9rem;
+  font-weight: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 90%;
+}
+.sideNavBar .largerSection .top-stories ul .topStories-wrapper a::after,
+.sideNavBar .largerSection .top-stories ul .recentStories-wrapper a::after,
+.sideNavBar .largerSection .recent-stories ul .topStories-wrapper a::after,
+.sideNavBar .largerSection .recent-stories ul .recentStories-wrapper a::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 0%;
+  background-color: #fafafa;
+  transition: ease-in-out 600ms width;
+}
+.sideNavBar .largerSection .top-stories ul .topStories-wrapper a:hover::after,
+.sideNavBar .largerSection .top-stories ul .recentStories-wrapper a:hover::after,
+.sideNavBar .largerSection .recent-stories ul .topStories-wrapper a:hover::after,
+.sideNavBar .largerSection .recent-stories ul .recentStories-wrapper a:hover::after {
+  width: 30%;
+}
+.sideNavBar .largerSection .top-stories ul .topStories-wrapper .topStories-author,
+.sideNavBar .largerSection .top-stories ul .topStories-wrapper .recentStories-author,
+.sideNavBar .largerSection .top-stories ul .recentStories-wrapper .topStories-author,
+.sideNavBar .largerSection .top-stories ul .recentStories-wrapper .recentStories-author,
+.sideNavBar .largerSection .recent-stories ul .topStories-wrapper .topStories-author,
+.sideNavBar .largerSection .recent-stories ul .topStories-wrapper .recentStories-author,
+.sideNavBar .largerSection .recent-stories ul .recentStories-wrapper .topStories-author,
+.sideNavBar .largerSection .recent-stories ul .recentStories-wrapper .recentStories-author {
+  font-size: 0.85rem;
+  color: goldenrod;
+}
+.sideNavBar .largerSection .explore-text {
+  padding: 1rem 0.5rem;
+}
+.sideNavBar .largerSection .explore-text h4 {
+  font-size: 1.3rem;
+  color: #fff;
+}
+.sideNavBar .smallerSection {
+  height: 200px;
+  padding: 0.5rem;
+}
+.sideNavBar .smallerSection .header {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.sideNavBar .smallerSection ul {
+  width: 100%;
+  margin-top: 1rem;
+}
+.sideNavBar .smallerSection ul li {
+  color: #1a1a1a;
+  font-size: 0.9rem;
+  padding-left: 0.7rem;
+}
+.sideNavBar .smallerSection ul li::marker {
+  content: "♲";
+  color: #fff;
+}
+.sideNavBar .smallerSection .brand {
+  font-size: 0.85rem;
+  float: right;
+}
+
+.divider {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.4196078431);
+  width: 100%;
+}/*# sourceMappingURL=ContentSideBar.css.map */

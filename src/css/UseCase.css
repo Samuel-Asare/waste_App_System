@@ -1,0 +1,53 @@
+.usecase_container {
+  width: 100vw;
+  padding-bottom: 2rem;
+  position: relative;
+}
+@media (max-width: 770px) {
+  .usecase_container {
+    padding-top: 3.3rem;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .usecase_container {
+    padding-top: 3rem;
+  }
+}
+@media (min-width: 992px) {
+  .usecase_container {
+    padding-top: 3rem;
+  }
+}
+.usecase_container .load_button {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.usecase_container .load_button .load_more_btn {
+  border: 1px solid goldenrod;
+  background-color: #e4b849;
+  color: #000000;
+  margin-top: 2rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  transition: ease-in-out 600ms all;
+  border-radius: 3rem;
+}
+.usecase_container .load_button .load_more_btn:hover {
+  background-color: goldenrod;
+  color: #fff;
+}
+@media (max-width: 770px) {
+  .usecase_container .load_button .load_more_btn {
+    width: 40%;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .usecase_container .load_button .load_more_btn {
+    width: 40%;
+  }
+}
+.usecase_container .load_button .load_more_btn:hover {
+  border: 1px solid #fff;
+}/*# sourceMappingURL=UseCase.css.map */

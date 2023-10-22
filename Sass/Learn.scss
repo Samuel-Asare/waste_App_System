@@ -1,0 +1,85 @@
+@import "./utilities";
+
+.learn_container {
+    width: 100vw;
+    padding-bottom: 2rem;
+    position: relative;
+    @include mobile_screen {
+        padding-top: 4.3rem;
+    }
+
+    @include tablet_screen {
+        padding-top: 5rem;
+    }
+
+    @include desktop_screen {
+        padding-top: 5rem;
+    }
+
+    .search {
+        background-color: darken(
+            $color: rgba(255, 255, 255, 0.354),
+            $amount: 4
+        );
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        padding: 1.5rem 1rem 1rem;
+        position: fixed;
+        z-index: 2;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -0.5rem auto 0;
+
+        @include mobile-screen {
+            margin: -0.9rem auto 0;
+        }
+        @include tablet-screen {
+            width: 100vw;
+        }
+
+        input {
+            padding: 0.5rem;
+            border-radius: 4rem;
+            outline: none;
+            border: 1px solid $primary-blue;
+            @include mobile_screen {
+                width: 88%;
+            }
+            @include tablet_screen {
+                width: 60%;
+            }
+            @include desktop_screen {
+                width: 60%;
+            }
+        }
+    }
+
+    .load_button {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .load_more_btn {
+            border: 1px solid $primary-blue;
+            background-color: lighten($color: $primary-blue, $amount: 10);
+            color: #000000;
+            margin-top: 2rem;
+            width: 10%;
+            transition: ease-in-out 600ms all;
+            border-radius: 3rem;
+            &:hover {
+                background-color: $primary-blue;
+                color: #fff;
+            }
+            @include mobile-screen {
+                width: 40%;
+            }
+
+            @include tablet-screen {
+                width: 40%;
+            }
+        }
+    }
+}

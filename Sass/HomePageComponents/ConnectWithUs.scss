@@ -1,0 +1,53 @@
+@import "../utilities";
+
+.connect_With_Us {
+    min-height: fit-content;
+    @include mobile_screen {
+        padding: 1.5rem 0;
+    }
+
+    @include tablet_screen {
+        padding-bottom: 2rem;
+    }
+
+    @include desktop_screen {
+        padding-bottom: 2.5rem;
+    }
+
+    .glassy_div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(
+            to right,
+            $glassy_div_color-blue,
+            $glassy_div_color-yellow
+        );
+        padding: 1.5rem 1rem;
+        @include mobile_screen {
+            padding: 2rem 0;
+        }
+        .content {
+            width: 60%;
+            margin: 0 auto;
+            text-align: center;
+            @include mobile_screen {
+                text-align: center;
+                width: 80%;
+            }
+            .brandName {
+                color: $primary-blue;
+                padding-bottom: 1rem;
+                cursor: default;
+            }
+            .connect_text {
+                font-weight: bold;
+                padding-bottom: 1rem;
+            }
+            .button {
+                background-color: $primary-blue;
+                text-transform: capitalize;
+            }
+        }
+    }
+}

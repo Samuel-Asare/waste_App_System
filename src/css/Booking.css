@@ -1,0 +1,44 @@
+.connet_wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.connet_wrapper .booking {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 3rem;
+  position: relative;
+}
+.connet_wrapper .booking .alert {
+  position: sticky;
+  top: 13%;
+  margin: 0 auto;
+  z-index: 2;
+}
+.connet_wrapper .booking .MuiSvgIcon-root circle {
+  color: #646cff;
+}
+.connet_wrapper .booking label {
+  color: rgba(0, 0, 0, 0.7333333333) !important;
+}
+.connet_wrapper .booking button {
+  color: #fff;
+  background-color: #646cff !important;
+}
+.connet_wrapper .booking .datelocal .datecontainer .datetime {
+  margin: 1.3rem 0 0 1rem;
+}
+@media (max-width: 770px) {
+  .connet_wrapper .booking .datelocal .datecontainer .datetime {
+    margin: 0 auto;
+  }
+}
+.connet_wrapper .booking .connect_glassy_div {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.193);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 5px;
+}/*# sourceMappingURL=Booking.css.map */

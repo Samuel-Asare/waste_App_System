@@ -1,0 +1,209 @@
+@import "./utilities";
+
+.contact_container {
+    width: 100vw;
+    min-height: 100vh;
+    .header_section {
+        background: linear-gradient(
+            to right,
+            $glassy_div_color-blue,
+            $glassy_div_color-yellow
+        );
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        .content {
+            display: flex;
+            height: 100%;
+            @include mobile_screen {
+                align-items: flex-start;
+                justify-content: center;
+                flex-direction: column;
+                width: 90%;
+                margin: 0 auto;
+                float: left;
+                padding: 1rem 0 1rem 2rem;
+                text-align: start;
+            }
+            padding: 1rem 0 1rem 2rem;
+
+            @include tablet_screen {
+                align-items: flex-start;
+                justify-content: center;
+                flex-direction: column;
+                width: 85%;
+                margin: 0 auto;
+            }
+
+            @include desktop_screen {
+                align-items: flex-start;
+                justify-content: center;
+                flex-direction: column;
+                width: 85%;
+                margin: 0 auto;
+            }
+
+            h1 {
+                letter-spacing: 1px;
+                color: #000;
+                font-size: 4rem;
+                @include mobile_screen {
+                    padding-bottom: 0.5rem;
+                }
+                padding-bottom: 1rem;
+            }
+            h6 {
+                color: darken($color: $black, $amount: 15);
+                padding-left: 0.2rem;
+            }
+            p {
+                color: darken($color: $black, $amount: 15);
+                font-weight: normal;
+                padding-left: 0.2rem;
+            }
+        }
+    }
+
+    .mid_content {
+        display: flex;
+        padding-bottom: 1em;
+        @include mobile_screen {
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        @include tablet_screen {
+            align-items: center;
+            justify-content: space-around;
+        }
+        @include desktop_screen {
+            align-items: center;
+            justify-content: space-evenly;
+            min-height: 60vh;
+            padding-bottom: 0.5em;
+        }
+        .text_section {
+            height: 100%;
+            .text {
+                width: 90%;
+                margin: 0 auto;
+                float: left;
+                padding: 1rem 0 1rem 2rem;
+                h1 {
+                    @include mobile_screen {
+                        font-size: 1.4rem;
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
+        }
+        .form_section {
+            width: 100vw;
+            @include desktop_screen {
+                width: 70%;
+            }
+            form {
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                flex-direction: column;
+                padding: 1rem;
+                gap: 1rem;
+                background: rgba(255, 255, 255, 0.25);
+                box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+                backdrop-filter: blur(4px);
+                -webkit-backdrop-filter: blur(4px);
+                border-radius: 10px;
+                border: 1px solid rgba(255, 255, 255, 0.18);
+                @include mobile_screen {
+                    width: 90%;
+                }
+
+                @include tablet_screen {
+                    width: 90%;
+                    margin: -8rem auto 0 auto;
+                    background-color: $primary-white;
+                }
+
+                @include tablet_main_screen {
+                    width: 80%;
+                }
+
+                @include desktop_screen {
+                    margin: -20rem auto 0 auto;
+                    width: 70%;
+                    background-color: $primary-white;
+                }
+
+                input {
+                    width: 100%;
+                    padding: 0.5em 0.8em;
+                    outline: none;
+                    background-color: darken($color: #fff, $amount: 20);
+                    border: none;
+                    color: #000;
+                    border-radius: 0.3em;
+                    border: 1px solid transparent;
+                    font-size: 0.8rem;
+
+                    &::placeholder {
+                        color: #000000c9;
+                        font-size: 0.8rem;
+                    }
+                    &:focus {
+                        border: 1px solid #ffffff9b;
+                    }
+                }
+                textarea {
+                    width: 100%;
+                    padding: 0.5em 0.8em;
+                    outline: none;
+                    background-color: darken($color: #fff, $amount: 20);
+                    border: none;
+                    color: #000;
+                    border-radius: 0.3em;
+                    border: 1px solid transparent;
+                    font-size: 0.8rem;
+
+                    &::placeholder {
+                        color: #000000c9;
+                        font-size: 0.8rem;
+                    }
+                    &:focus {
+                        border: 1px solid #ffffff9b;
+                    }
+                }
+
+                .submit_btn {
+                    background-color: $primary-blue;
+                    border-radius: 3rem;
+                    color: $primary-white;
+                    padding: 0.4rem 0.8rem;
+                    transition: ease-in-out 600ms all;
+
+                    &:hover {
+                        color: $primary-blue;
+                        background-color: $primary-white;
+                    }
+                    @include mobile_screen {
+                        width: 50%;
+                        margin: 0 auto;
+                    }
+
+                    @include tablet_screen {
+                        width: 40%;
+                        margin: 0 auto;
+                    }
+
+                    @include desktop_screen {
+                        width: 30%;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}

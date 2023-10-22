@@ -1,0 +1,27 @@
+@import "./utilities";
+
+.home_Page {
+    position: relative;
+    width: 100vw;
+    // background-color: lighten($color: #081b4e, $amount: 20);
+}
+
+.glassy_div {
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    margin: 0 auto;
+    height: 100%;
+
+    @include mobile_screen {
+        width: 90vw;
+    }
+
+    @include tablet_screen {
+        width: 95vw;
+    }
+    @include desktop_screen {
+        width: 95vw;
+    }
+}

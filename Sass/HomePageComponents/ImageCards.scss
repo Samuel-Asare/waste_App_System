@@ -1,0 +1,45 @@
+@import "../utilities";
+
+.image_wrapper {
+    width: 100vw;
+    height: 55vh;
+    padding: 1rem 0;
+    margin-bottom: 0.5rem;
+
+    .image_holder {
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        gap: 1rem;
+        overflow-x: scroll !important;
+        white-space: nowrap;
+        overflow: hidden;
+        border-radius: 0.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        @include mobile_screen {
+            width: 97vw;
+        }
+
+        @include tablet_screen {
+            width: 95vw;
+        }
+        @include desktop_screen {
+            width: 95vw;
+        }
+
+        img {
+            object-fit: cover;
+            width: 500px;
+            height: 100%;
+            @include tablet_screen {
+                width: 98% !important;
+            }
+
+            @include mobile-screen {
+                width: 97% !important;
+            }
+        }
+    }
+}

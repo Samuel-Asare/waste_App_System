@@ -1,0 +1,62 @@
+@import "../utilities";
+
+.EachLearnCard_container {
+    width: 100vw;
+
+    @include mobile_screen {
+        padding-top: 3.6rem;
+    }
+
+    @include tablet_screen {
+        padding-top: 4.7rem;
+    }
+
+    @include desktop_screen {
+        padding-top: 4.7rem;
+    }
+    .main_card_content {
+        padding-bottom: 1rem;
+        header {
+            height: 40vh;
+            // background-color: $second-Gray;
+            background: linear-gradient(
+                90deg,
+                hsla(165, 60%, 11%, 1) 0%,
+                hsla(149, 54%, 31%, 1) 100%
+            );
+            padding: 1rem;
+            position: relative;
+            .text {
+                position: absolute;
+                left: 20px;
+                bottom: 10px;
+                h1 {
+                    color: #fff;
+                }
+                p {
+                    color: #ffffffbe;
+                }
+            }
+        }
+        .text_content {
+            padding-top: 1rem;
+            margin: 0 auto;
+
+            @include mobile_screen {
+                width: 90%;
+            }
+
+            @include tablet_screen {
+                width: 70%;
+            }
+
+            @include desktop_screen {
+                width: 70%;
+            }
+
+            .step {
+                font-weight: bold;
+            }
+        }
+    }
+}

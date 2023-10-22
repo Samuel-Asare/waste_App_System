@@ -1,0 +1,104 @@
+.Service {
+  padding: 1rem;
+  width: 100vw;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+@media (max-width: 770px) {
+  .Service {
+    padding: 1.5rem 0;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .Service {
+    padding-bottom: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .Service {
+    padding-bottom: 2rem;
+  }
+}
+.Service .glassy_div {
+  background-color: rgba(100, 108, 255, 0.2509803922);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .Service .glassy_div {
+    flex-direction: column;
+  }
+}
+@media (max-width: 770px) {
+  .Service .glassy_div {
+    flex-direction: column;
+  }
+}
+.Service .glassy_div .text {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1rem;
+}
+@media (min-width: 992px) {
+  .Service .glassy_div .text {
+    order: 2;
+  }
+}
+@media (max-width: 770px) {
+  .Service .glassy_div .text {
+    text-align: center;
+  }
+}
+.Service .glassy_div .text h2 {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.Service .glassy_div .text .header_p_text {
+  color: #1a1a1a;
+}
+@media (min-width: 992px) {
+  .Service .glassy_div .text {
+    width: 45%;
+  }
+}
+.Service .glassy_div .text .service_div {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+}
+.Service .glassy_div .text .service_div .service_item {
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.627);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-top-right-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: relative;
+}
+.Service .glassy_div .text .service_div .service_item p {
+  font-size: 0.855rem;
+}
+.Service .glassy_div .image_div {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  .Service .glassy_div .image_div {
+    order: 1;
+  }
+}
+.Service .glassy_div .image_div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=Service.css.map */

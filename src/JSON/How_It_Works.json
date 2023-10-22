@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "task": "Book Your Collection",
+        "details": "Select the type of service you need and schedule your waste collection conveniently."
+    },
+    {
+        "id": 2,
+        "task": "Collection Day",
+        "details": "Our waste agency personnel will arrive on the designated day to pick up your waste."
+    },
+    {
+        "id": 3,
+        "task": "Sustainable Handling",
+        "details": "We ensure proper waste separation and environmentally friendly disposal methods"
+    },
+    {
+        "id": 4,
+        "task": "Educational Resources",
+        "details": "Access our educational content to learn more about sustainable waste management practices."
+    }
+]

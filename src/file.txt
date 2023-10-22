@@ -1,0 +1,141 @@
+ 
+ // MAIN SignUp form
+
+
+ <form onSubmit={handleSubmit}>
+                    <fieldset>
+                        <div id="names_fieldset">
+                            <input
+                                type="text"
+                                placeholder="First Name:"
+                                id="fname"
+                                value={fname}
+                                onChange={(e) => setFname(e.target.value)}
+                            />
+                            <input
+                                type="text"
+                                placeholder="Last Name:"
+                                id="lname"
+                                value={lname}
+                                onChange={(e) => setLname(e.target.value)}
+                            />
+                        </div>
+                        <div id="credentials_fieldset">
+                            <input
+                                type="email"
+                                placeholder="Example@gmail.com"
+                                id="email"
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
+                            />
+                            <input
+                                type="password"
+                                placeholder="Password"
+                                id="password"
+                                onChange={(e) => {
+                                    setPassword(e.target.value);
+                                }}
+                            />
+                            {/* <p style={messageStyle}>{confirmPassMessage}</p> */}
+                            {/* <input
+                                type="password"
+                                placeholder="Confirm Password"
+                                id="con_password"
+                                value={conpassword}
+                                onChange={(e) => {
+                                    setConpassword(e.target.value);
+                                    if (conpassword === getpassword) {
+                                        setConfirmPassMeassage("");
+                                    } else {
+                                        setConfirmPassMeassage(
+                                            "password mismatch"
+                                        );
+                                    }
+                                }}
+                            /> */}
+                        </div>
+                        {/* <p style={messageStyle}>{existuser}</p> */}
+                        <button type="submit" id="submit_btn">
+                            create account
+                        </button>
+                    </fieldset>
+                </form>
+
+
+                //END MAIN SignUp FORM 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <div id="names_fieldset">
+                            <input
+                                type="text"
+                                placeholder="First Name:"
+                                id="fname"
+                                value={fname}
+                                onChange={(e) => setFname(e.target.value)}
+                            />
+                            <input
+                                type="text"
+                                placeholder="Last Name:"
+                                id="lname"
+                                value={lname}
+                                onChange={(e) => setLname(e.target.value)}
+                            />
+                        </div>
+
+
+                          const [fname, setFname] = useState("");
+    const [lname, setLname] = useState("");
+
+
+
+
+
+                <form onSubmit={handleSignUp}>
+                    <fieldset>
+                        <div id="credentials_fieldset">
+                            <input
+                                type="email"
+                                placeholder="Example@gmail.com"
+                                id="email"
+                                onChange={(e) => setEmail(e.target.value)}
+                            />
+                            <input
+                                type="password"
+                                placeholder="Password"
+                                id="password"
+                                onChange={(e) => {
+                                    setPassword(e.target.value);
+                                }}
+                            />
+                        </div>
+
+                        <button type="submit" id="submit_btn">
+                            create account
+                        </button>
+                    </fieldset>
+                </form>

@@ -1,0 +1,131 @@
+.login_container {
+  padding-top: 2rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login_container .login_content {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #000;
+  flex-direction: column;
+  display: flex;
+  padding: 1rem;
+}
+@media (max-width: 770px) {
+  .login_container .login_content {
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .login_container .login_content {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 450px;
+  }
+}
+@media (min-width: 992px) {
+  .login_container .login_content {
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+  }
+}
+.login_container .login_content header {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.3em;
+  width: 80%;
+}
+.login_container .login_content header h1 {
+  font-size: 1.5rem;
+}
+.login_container .login_content header .google_text {
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.login_container .login_content header p #link_item {
+  color: #646cff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+.login_container .login_content form {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.login_container .login_content form fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8em;
+}
+.login_container .login_content form fieldset input {
+  padding: 0.5em 0.8em;
+  outline: none;
+  background-color: rgba(62, 61, 61, 0.6352941176);
+  border: none;
+  color: #fff;
+  border-radius: 0.3em;
+  border: 1px solid transparent;
+}
+.login_container .login_content form fieldset input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7882352941);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+.login_container .login_content form fieldset input::placeholder {
+  color: rgba(255, 255, 255, 0.7882352941);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+.login_container .login_content form fieldset input:focus {
+  border: 1px solid rgba(255, 255, 255, 0.6078431373);
+}
+.login_container .login_content form fieldset #email::-moz-placeholder {
+  text-transform: lowercase;
+}
+.login_container .login_content form fieldset #email::placeholder {
+  text-transform: lowercase;
+}
+.login_container .login_content form fieldset #forgot_div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.login_container .login_content form fieldset #forgot_div p {
+  font-size: 0.85rem;
+}
+.login_container .login_content form fieldset #reset_btn {
+  color: #cf055c;
+}
+.login_container .login_content form fieldset #login_btn {
+  width: 40%;
+  margin: 2em auto 0 auto;
+  padding: 0.6em 0.1em;
+  border-radius: 4em;
+  outline: none;
+  border: 1px solid #fff;
+  background-color: #646cff;
+  color: rgba(255, 255, 255, 0.7843137255);
+  font-weight: bold;
+  transition: ease-in-out 600ms;
+  cursor: pointer;
+}
+.login_container .login_content form fieldset #login_btn:hover {
+  background-color: #979cff;
+  color: #000;
+}/*# sourceMappingURL=LogIn.css.map */

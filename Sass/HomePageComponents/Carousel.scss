@@ -1,0 +1,34 @@
+@import "../utilities";
+
+.carousel_container {
+    width: 100vw;
+    min-height: 30vh;
+    margin: 0 auto;
+    .carousel {
+        height: 100%;
+        figcaption {
+            .carousel_image {
+                width: 100%;
+                height: 80vh;
+                object-fit: cover;
+                position: relative;
+            }
+            cite {
+                float: right;
+                padding-right: 3rem;
+            }
+            &::after {
+                content: " ";
+                display: block;
+                height: 100%;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.37);
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+            }
+        }
+    }
+}

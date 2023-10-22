@@ -1,0 +1,75 @@
+@import "../utilities";
+
+.guide_container {
+    padding-top: 2rem;
+    width: 100vw;
+    min-height: 50vh;
+
+    @include mobile_screen {
+        padding: 1.5rem 0;
+    }
+
+    @include tablet_screen {
+        padding-bottom: 2rem;
+    }
+
+    @include desktop_screen {
+        padding-bottom: 2.5rem;
+    }
+    .glassy_div {
+        background: linear-gradient(
+            to right,
+            $glassy_div_color-blue,
+            $glassy_div_color-yellow
+        );
+        padding: 1rem;
+
+        .text {
+            padding: 1rem;
+            .text_header {
+                text-align: center;
+                h2 {
+                    color: #000;
+                }
+            }
+            .cards {
+                @include mobile_screen {
+                    width: 90%;
+                }
+                width: 80%;
+                display: grid;
+                gap: 1rem;
+                grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+                margin: 0 auto;
+                padding: 1rem 0 2rem 0;
+                .card {
+                    background: $second-yellow;
+                    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+                    backdrop-filter: blur(4px);
+                    -webkit-backdrop-filter: blur(4px);
+                    border-top-right-radius: 20px;
+                    border-bottom-left-radius: 20px;
+                    border: 1px solid rgba(255, 255, 255, 0.18);
+                    padding: 0.5rem;
+
+                    h4 {
+                        text-align: center;
+                    }
+
+                    p {
+                        color: darken($color: #fff, $amount: 70);
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+            .bottom_text {
+                text-align: center;
+                font-size: 0.9rem;
+                @include desktop_screen {
+                    width: 80%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}

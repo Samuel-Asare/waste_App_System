@@ -1,0 +1,47 @@
+@import "../utilities";
+
+a {
+    .userProfile {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.37);
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .btn_logout {
+        background-color: rgb(255, 255, 255);
+        border-radius: 0.4rem;
+        width: 100px;
+        height: 40px;
+        position: absolute;
+        right: 10px;
+        display: none;
+
+        @include mobile-screen {
+            left: 10px;
+        }
+
+        button {
+            position: absolute;
+            display: flex;
+            font-size: 0.6rem;
+            align-items: center;
+            bottom: 0;
+            width: 90%;
+            margin: 0 auto !important;
+            justify-content: space-between;
+            background-color: transparent;
+            border: none;
+            &:hover {
+                color: $primary-blue;
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.faq_wrapper {
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+@media (max-width: 770px) {
+  .faq_wrapper {
+    width: 90%;
+  }
+}
+@media (min-width: 992px) {
+  .faq_wrapper {
+    width: 90%;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .faq_wrapper {
+    width: 90%;
+  }
+}
+.faq_wrapper .content .questionmark_icon {
+  color: goldenrod;
+}
+.faq_wrapper .content h2 {
+  margin-bottom: 1.5rem;
+  display: flex;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+.faq_wrapper .content .questions_div {
+  margin: 0 auto;
+  display: grid;
+  row-gap: 0.5rem;
+}
+@media (max-width: 770px) {
+  .faq_wrapper .content .questions_div {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .faq_wrapper .content .questions_div {
+    width: 90%;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .faq_wrapper .content .questions_div {
+    width: 90%;
+  }
+}
+.faq_wrapper .content .questions_div .accordion {
+  border-radius: 0;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.186);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}/*# sourceMappingURL=FAQ.css.map */

@@ -1,0 +1,36 @@
+.bannerContainer {
+  width: 100%;
+  padding: 1rem;
+}
+.bannerContainer .bannerContent {
+  border-radius: 0.3rem;
+  height: 230px;
+  display: grid;
+  place-content: center;
+  position: relative;
+  overflow: hidden;
+  color: #ffffff;
+  background-color: rgb(1, 25, 6);
+}
+@media (min-width: 992px) {
+  .bannerContainer .bannerContent {
+    margin: 0 auto;
+    width: 97%;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .bannerContainer .bannerContent {
+    margin: 0 auto;
+    width: 97%;
+  }
+}
+@media (max-width: 770px) {
+  .bannerContainer .bannerContent {
+    width: 100%;
+  }
+}
+.bannerContainer .bannerContent h5 {
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.4588235294);
+  text-align: center;
+}/*# sourceMappingURL=BlogBanner.css.map */

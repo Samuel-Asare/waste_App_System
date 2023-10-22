@@ -1,0 +1,50 @@
+@import "./utilities";
+
+.usecase_container {
+    width: 100vw;
+    padding-bottom: 2rem;
+    position: relative;
+    @include mobile_screen {
+        padding-top: 3.3rem;
+    }
+
+    @include tablet_screen {
+        padding-top: 3rem;
+    }
+
+    @include desktop_screen {
+        padding-top: 3rem;
+    }
+
+    .load_button {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .load_more_btn {
+            border: 1px solid $second-yellow;
+            background-color: lighten($color: $second-yellow, $amount: 10);
+            color: #000000;
+            margin-top: 2rem;
+            width: fit-content;
+            transition: ease-in-out 600ms all;
+            border-radius: 3rem;
+            &:hover {
+                background-color: $second-yellow;
+                color: #fff;
+            }
+
+            @include mobile-screen {
+                width: 40%;
+            }
+
+            @include tablet-screen {
+                width: 40%;
+            }
+
+            &:hover {
+                border: 1px solid #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+@import "./utilities";
+
+.blog_container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+
+    .menu_btn {
+        
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        background-color: $primary-blue;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        display: grid;
+        place-content: center;
+        cursor: pointer;
+        display: none;
+        @include tablet-screen {
+            display: grid;
+        }
+        @include mobile-screen {
+            display: grid;
+        }
+    }
+}

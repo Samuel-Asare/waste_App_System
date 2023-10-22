@@ -1,0 +1,73 @@
+.guide_container {
+  padding-top: 2rem;
+  width: 100vw;
+  min-height: 50vh;
+}
+@media (max-width: 770px) {
+  .guide_container {
+    padding: 1.5rem 0;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .guide_container {
+    padding-bottom: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .guide_container {
+    padding-bottom: 2.5rem;
+  }
+}
+.guide_container .glassy_div {
+  background: linear-gradient(to right, rgba(100, 108, 255, 0.2509803922), rgba(222, 223, 187, 0.3254901961));
+  padding: 1rem;
+}
+.guide_container .glassy_div .text {
+  padding: 1rem;
+}
+.guide_container .glassy_div .text .text_header {
+  text-align: center;
+}
+.guide_container .glassy_div .text .text_header h2 {
+  color: #000;
+}
+.guide_container .glassy_div .text .cards {
+  width: 80%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  margin: 0 auto;
+  padding: 1rem 0 2rem 0;
+}
+@media (max-width: 770px) {
+  .guide_container .glassy_div .text .cards {
+    width: 90%;
+  }
+}
+.guide_container .glassy_div .text .cards .card {
+  background: goldenrod;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 0.5rem;
+}
+.guide_container .glassy_div .text .cards .card h4 {
+  text-align: center;
+}
+.guide_container .glassy_div .text .cards .card p {
+  color: #4d4d4d;
+  font-size: 0.9rem;
+}
+.guide_container .glassy_div .text .bottom_text {
+  text-align: center;
+  font-size: 0.9rem;
+}
+@media (min-width: 992px) {
+  .guide_container .glassy_div .text .bottom_text {
+    width: 80%;
+    margin: 0 auto;
+  }
+}/*# sourceMappingURL=Guide.css.map */

@@ -1,0 +1,91 @@
+.eachcardwrapper header {
+  background-color: indigo;
+  height: 55vh;
+  width: 100%;
+  position: relative;
+}
+.eachcardwrapper header img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.eachcardwrapper header .content {
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  width: 50%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5607843137);
+  padding: 0.5rem;
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .eachcardwrapper header .content {
+    width: 60%;
+  }
+}
+@media (max-width: 770px) {
+  .eachcardwrapper header .content {
+    width: 100%;
+    left: 0;
+  }
+}
+.eachcardwrapper header .content h1 {
+  font-size: 2rem;
+}
+.eachcardwrapper header .content p {
+  color: #cccccc;
+  font-size: 0.95rem;
+}
+.eachcardwrapper .storyContent .topsectionText {
+  padding: 1rem;
+}
+.eachcardwrapper .storyContent .topsectionText .title h3 {
+  font-size: 1.3rem;
+}
+.eachcardwrapper .storyContent .topsectionText article {
+  font-size: 1rem;
+}
+.eachcardwrapper .storyContent .topsectionText article::first-letter {
+  font-size: 2.2rem;
+  padding-left: 1rem;
+}
+.eachcardwrapper .storyContent .imageAndText {
+  display: flex;
+  min-height: 50vh;
+}
+@media (max-width: 770px) {
+  .eachcardwrapper .storyContent .imageAndText {
+    flex-direction: column;
+  }
+}
+.eachcardwrapper .storyContent .imageAndText .imageDiv {
+  flex: 1;
+  margin: 2rem 1rem;
+  overflow: hidden;
+}
+.eachcardwrapper .storyContent .imageAndText .imageDiv figcaption img {
+  border-radius: 0.7rem;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.eachcardwrapper .storyContent .imageAndText .imageDiv figcaption cite {
+  float: right;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
+}
+.eachcardwrapper .storyContent .imageAndText .imageSideText {
+  min-height: 200px;
+  width: 50%;
+  padding: 0.7rem;
+}
+@media (max-width: 770px) {
+  .eachcardwrapper .storyContent .imageAndText .imageSideText {
+    width: 100%;
+  }
+}
+.eachcardwrapper .storyContent .bottomsectionText {
+  padding: 0 1rem 1rem;
+}/*# sourceMappingURL=EachBlogCard.css.map */
