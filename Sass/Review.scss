@@ -25,6 +25,17 @@
         .content {
             width: 90% !important;
             margin: 0 auto;
+
+            .head_line {
+                text-align: center;
+                margin-top: 2rem auto 0 auto;
+                width: 100%;
+
+                p {
+                    padding-top: 1rem;
+                    width: 60%;
+                }
+            }
         }
     }
     .Reviewcontainer {
@@ -69,6 +80,12 @@
                     }
                     p {
                         font-size: 0.8rem;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 5;
+                        line-clamp: 5;
+                        -webkit-box-orient: vertical;
                     }
                 }
             }

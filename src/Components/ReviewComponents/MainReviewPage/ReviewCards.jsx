@@ -13,9 +13,10 @@ const ReviewCards = () => {
                         <TimelineOutlinedIcon />
                         <h6>Response Time</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Laudantium obcaecati, illo sint maxime odio
-                            explicabo!
+                            Fast response time is our priority. We are dedicated
+                            to ensuring that your requests are addressed
+                            promptly and efficiently. Our team is available
+                            around the clock to serve you.
                         </p>
                     </div>
                 </div>
@@ -26,9 +27,10 @@ const ReviewCards = () => {
                         <SupportAgentOutlinedIcon />
                         <h6>Relation / Service</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Laudantium obcaecati, illo sint maxime odio
-                            explicabo!
+                            Our goal is to maintain strong relationships with
+                            our customers. We provide excellent service, and
+                            your feedback is essential in helping us improve and
+                            build lasting relationships with you.
                         </p>
                     </div>
                 </div>
@@ -39,9 +41,10 @@ const ReviewCards = () => {
                         <AssistantOutlinedIcon />
                         <h6>General Suggestion</h6>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Laudantium obcaecati, illo sint maxime odio
-                            explicabo!
+                            We welcome your suggestions and ideas to enhance our
+                            services. Your feedback is highly valued, and it
+                            helps us continuously improve and offer a better
+                            experience to our customers.
                         </p>
                     </div>
                 </div>

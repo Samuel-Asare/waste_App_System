@@ -128,7 +128,7 @@ export default function Checkout() {
                 {/* ALERT */}
                 {alert === true && (
                     <div className="alert alert-danger" role="alert">
-                        A Required Field Is Empty
+                        Required Field Is Empty
                     </div>
                 )}
                 {/* END ALERT */}

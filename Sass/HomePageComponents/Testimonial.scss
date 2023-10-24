@@ -26,14 +26,11 @@
         }
 
         .testimonial-div {
-            height: 150px;
+            height: 170px;
             padding-top: 1rem;
-            @include mobile_screen {
-                height: 190px;
-            }
 
             @include mobile_screen {
-                height: 250px;
+                height: 280px;
             }
             .text {
                 display: flex;

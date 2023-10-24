@@ -38,11 +38,9 @@ const Guide = () => {
                         ))}
                     </div>
                     <p className="bottom_text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Corporis totam repudiandae eaque ipsa, nesciunt vero
-                        eveniet illo illum. Et totam voluptatibus quis, harum
-                        corporis dignissimos earum incidunt! Ullam, dolorem
-                        aliquid.
+                        Our user-friendly system makes it easy to connect with
+                        your local waste agency to address your waste management
+                        needs. Follow these simple steps to get started:
                     </p>
                 </div>
                 <div className="list-timeline">
@@ -70,7 +68,7 @@ const Guide = () => {
                                     SignUp / LogIn
                                 </Typography>
                                 <Typography sx={{ color: "#595959" }}>
-                                    For Easy Booking
+                                    For easy booking
                                 </Typography>
                             </TimelineContent>
                         </TimelineItem>
@@ -92,7 +90,7 @@ const Guide = () => {
                             </TimelineSeparator>
                             <TimelineContent sx={{ py: "12px", px: 2 }}>
                                 <Typography variant="h6" component="span">
-                                    Navigate to the Connent page
+                                    Navigate to the connent page
                                 </Typography>
                                 <Typography sx={{ color: "#595959" }}>
                                     The page houses the connect process

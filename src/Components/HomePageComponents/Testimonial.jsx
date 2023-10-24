@@ -11,20 +11,20 @@ import {
 
 const items = [
     {
-        word: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, hic. Tenetur voluptate neque error obcaecati, voluptatem corporis voluptates. Harum, pariatur.",
-        by: "kelvin smith",
+        word: "I've been using the CleanWaste system for a year now, and I couldn't be happier. The convenience of scheduling pickups, the reliability of the service, and the reduced environmental impact have made a significant difference in my household. I highly recommend CleanWaste to anyone looking for an efficient and eco-friendly waste management solution.",
+        by: "John D. - Residential User",
         key: 1,
         imageSource: "Image 1 source: ....",
     },
     {
-        word: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, hic. Tenetur voluptate neque error obcaecati, voluptatem corporis voluptates. Harum, pariatur.",
-        by: "Lucrecia Max",
+        word: "CleanWaste has been a game-changer for my small business. With their easy-to-use platform, I can request waste pickups for my restaurant without any hassle. The service is prompt, and the recycling options align perfectly with my commitment to sustainability. CleanWaste has become an essential partner in our daily operations.",
+        by: "Sarah M. - Small Business Owner",
         key: 2,
         imageSource: "Image 2 source: .....",
     },
     {
-        word: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, hic. Tenetur voluptate neque error obcaecati, voluptatem corporis voluptates. Harum, pariatur.",
-        by: "maxwell tin",
+        word: "Collaborating with CleanWaste has revolutionized our waste agency. Their system streamlines collections, offers real-time data, and enhances scheduling, resulting in improved operations and customer satisfaction. CleanWaste's environmental commitment and advanced tech demonstrate their dedication to waste management.",
+        by: "David S. - Waste Agency Partner",
         key: 3,
         imageSource: "Image 3 source: .....",
     },

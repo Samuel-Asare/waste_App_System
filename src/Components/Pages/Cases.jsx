@@ -30,9 +30,8 @@ const Cases = () => {
                                             <KeyboardDoubleArrowRightOutlinedIcon />{" "}
                                         </h6>
                                         <p>
-                                            Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Iure,
-                                            doloremque!
+                                            Discover creative ways to repurpose
+                                            waste
                                         </p>
                                     </div>
                                 </NavLink>
@@ -43,9 +42,8 @@ const Cases = () => {
                                             <KeyboardDoubleArrowRightOutlinedIcon />{" "}
                                         </h6>
                                         <p>
-                                            Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Iure,
-                                            doloremque!
+                                            Explore educational resources on
+                                            waste management.
                                         </p>
                                     </div>
                                 </NavLink>

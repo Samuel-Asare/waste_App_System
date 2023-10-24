@@ -29,6 +29,15 @@
   width: 90% !important;
   margin: 0 auto;
 }
+.review-container .infor-div .content .head_line {
+  text-align: center;
+  margin-top: 2rem auto 0 auto;
+  width: 100%;
+}
+.review-container .infor-div .content .head_line p {
+  padding-top: 1rem;
+  width: 60%;
+}
 .review-container .Reviewcontainer {
   flex: 1;
   height: 50%;
@@ -74,6 +83,12 @@
 }
 .review-container .Reviewcontainer a .tag div p {
   font-size: 0.8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
 }
 .review-container .infor-div {
   width: 100%;

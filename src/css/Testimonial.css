@@ -27,17 +27,12 @@
   margin-bottom: 2rem;
 }
 .testimonial_container .glassy_div .testimonial-div {
-  height: 150px;
+  height: 170px;
   padding-top: 1rem;
 }
 @media (max-width: 770px) {
   .testimonial_container .glassy_div .testimonial-div {
-    height: 190px;
-  }
-}
-@media (max-width: 770px) {
-  .testimonial_container .glassy_div .testimonial-div {
-    height: 250px;
+    height: 280px;
   }
 }
 .testimonial_container .glassy_div .testimonial-div .text {

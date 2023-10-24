@@ -5,11 +5,16 @@ const InforSection = () => {
         <div className="infor-div">
             <div className="content">
                 <h2>Review Tags</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Veniam, vero? Iusto eos consequuntur distinctio aspernatur
-                    dignissimos officiis itaque debitis officia?z
-                </p>
+                <div className="head_line">
+                    <p>
+                        Your feedback is invaluable to us. Help us improve our
+                        services by sharing your thoughts and experiences.
+                        Whether it is related to response time, our customer
+                        service, or general suggestions, we appreciate your
+                        input and strive to provide you with the best experience
+                        possible.
+                    </p>
+                </div>
             </div>
         </div>
     );
