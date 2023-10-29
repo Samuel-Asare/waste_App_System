@@ -12,6 +12,9 @@
                 height: 80vh;
                 object-fit: cover;
                 position: relative;
+                @include tablet_screen {
+                    height: 50vh;
+                }
             }
             cite {
                 float: right;

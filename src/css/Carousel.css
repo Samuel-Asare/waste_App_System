@@ -13,6 +13,11 @@
      object-fit: cover;
   position: relative;
 }
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .carousel_container .carousel figcaption .carousel_image {
+    height: 50vh;
+  }
+}
 .carousel_container .carousel figcaption cite {
   float: right;
   padding-right: 3rem;

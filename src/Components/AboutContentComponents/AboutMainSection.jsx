@@ -33,7 +33,7 @@ const AboutMainSection = () => {
                         {/* text content  */}
                         <div className="text_content">
                             <article>
-                                <h5>What We Offer:</h5>
+                                <h2>What We Offer:</h2>
                                 <div className="text-content">
                                     <ol type="1">
                                         <span>
@@ -119,7 +119,7 @@ const AboutMainSection = () => {
                     <section className="vision-text-content">
                         <div className="text-content">
                             <div className="top-text">
-                                <h5>Our Vision</h5>
+                                <h2>Our Vision</h2>
                                 <p>
                                     At our core, we strive to create a cleaner
                                     and healthier environment. By leveraging

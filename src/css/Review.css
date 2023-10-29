@@ -38,6 +38,11 @@
   padding-top: 1rem;
   width: 60%;
 }
+@media (max-width: 770px) {
+  .review-container .infor-div .content .head_line p {
+    width: 90%;
+  }
+}
 .review-container .Reviewcontainer {
   flex: 1;
   height: 50%;

@@ -17,6 +17,11 @@
 @media (min-width: 770px) and (max-width: 991.98px) {
   .case_div .content {
     padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
   }
 }
 @media (min-width: 992px) {
@@ -38,7 +43,7 @@
 }
 @media (min-width: 770px) and (max-width: 991.98px) {
   .case_div .content .text-content {
-    width: 80%;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
@@ -49,8 +54,24 @@
 .case_div .content .text-content .text {
   margin-bottom: 3rem;
 }
+@media (max-width: 770px) {
+  .case_div .content .text-content .text h1 {
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .case_div .content .text-content .text h1 {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+  }
+}
 .case_div .content .text-content .text span {
   color: #646cff;
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .case_div .content .text-content p {
+    font-size: 1.3rem;
+  }
 }
 .case_div .content .text-content .links {
   flex: 1;
@@ -63,6 +84,11 @@
 @media (min-width: 992px) {
   .case_div .content .text-content .links {
     width: 80%;
+  }
+}
+@media (max-width: 770px) {
+  .case_div .content .text-content .links {
+    flex: 0;
   }
 }
 .case_div .content .text-content .links a {

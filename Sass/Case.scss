@@ -12,6 +12,11 @@
 
         @include tablet_screen {
             padding-top: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
+            margin: 0 auto;
         }
 
         @include desktop_screen {
@@ -32,7 +37,7 @@
             }
 
             @include tablet_screen {
-                width: 80%;
+                width: 100%;
             }
 
             @include desktop_screen {
@@ -44,8 +49,25 @@
             .text {
                 margin-bottom: 3rem;
 
+                h1 {
+                    @include mobile_screen {
+                        margin-bottom: 2rem;
+                    }
+
+                    @include tablet_screen {
+                        font-size: 2rem;
+                        margin-bottom: 2.5rem;
+                    }
+                }
+
                 span {
                     color: $primary-blue;
+                }
+            }
+
+            p {
+                @include tablet_screen {
+                    font-size: 1.3rem;
                 }
             }
 
@@ -59,6 +81,9 @@
 
                 @include desktop_screen {
                     width: 80%;
+                }
+                @include mobile_screen {
+                    flex: 0;
                 }
 
                 a {

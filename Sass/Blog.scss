@@ -6,23 +6,24 @@
     display: flex;
 
     .menu_btn {
-        
         position: absolute;
         bottom: 20px;
         right: 20px;
-        background-color: $primary-blue;
+        // background-color: $primary-blue;
+        background-color: $second-yellow;
         height: 30px;
         width: 30px;
         border-radius: 50%;
         display: grid;
         place-content: center;
         cursor: pointer;
-        display: none;
-        @include tablet-screen {
-            display: grid;
-        }
-        @include mobile-screen {
-            display: grid;
-        }
+        // display: none;
+        z-index: 10;
+        // @include tablet-screen {
+        //     display: grid;
+        // }
+        // @include mobile-screen {
+        //     display: grid;
+        // }
     }
 }

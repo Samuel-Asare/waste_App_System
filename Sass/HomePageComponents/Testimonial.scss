@@ -21,8 +21,15 @@
         text-align: center;
         background-color: #eaecb5ce;
 
+        @include mobile_screen {
+            padding: 1rem;
+        }
+
         .header {
             margin-bottom: 2rem;
+            @include mobile_screen {
+                margin-bottom: 1rem;
+            }
         }
 
         .testimonial-div {
@@ -30,7 +37,10 @@
             padding-top: 1rem;
 
             @include mobile_screen {
-                height: 280px;
+                height: 350px;
+            }
+            @include tablet_screen {
+                height: 230px;
             }
             .text {
                 display: flex;
@@ -38,6 +48,10 @@
                 width: 70%;
                 margin: 0 auto;
                 font-family: "Times New Roman", Times, serif;
+
+                @include mobile_screen {
+                    width: 80%;
+                }
                 .by {
                     margin-top: 1rem;
                     color: $primary-blue;
