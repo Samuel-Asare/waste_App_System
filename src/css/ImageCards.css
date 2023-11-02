@@ -20,7 +20,6 @@
 @media (max-width: 770px) {
   .image_wrapper .image_holder {
     width: 97vw;
-    background-color: rebeccapurple;
   }
 }
 @media (min-width: 770px) and (max-width: 991.98px) {
