@@ -19,7 +19,7 @@
     .glassy_div {
         padding: 2rem 1rem;
         text-align: center;
-        background-color: #eaecb5ce;
+        background-color: $second-yellow;
 
         @include mobile_screen {
             padding: 1rem;
@@ -27,6 +27,14 @@
 
         .header {
             margin-bottom: 2rem;
+            &::after {
+                content: "";
+                width: 80%;
+                margin: 1rem auto 0;
+                height: 1px;
+                background-color: #00000055;
+                display: block;
+            }
             @include mobile_screen {
                 margin-bottom: 1rem;
             }

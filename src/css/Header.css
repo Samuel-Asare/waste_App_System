@@ -1,3 +1,12 @@
+.request_anime {
+  width: 3%;
+}
+@media (max-width: 770px) {
+  .request_anime {
+    width: 5%;
+  }
+}
+
 .header_div {
   position: fixed;
   z-index: 60;

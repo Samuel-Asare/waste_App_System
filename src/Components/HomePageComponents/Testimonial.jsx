@@ -63,7 +63,7 @@ const Testimonial = (args) => {
                 <div className="testimonial-div">
                     <figcaption className="text">
                         {`"${item.word}"`}
-                        <cite className="by">~{item.by}</cite>
+                        <cite className="by">~ {item.by}</cite>
                     </figcaption>
                 </div>
             </CarouselItem>

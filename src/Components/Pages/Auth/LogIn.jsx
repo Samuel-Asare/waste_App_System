@@ -8,6 +8,7 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth, provider } from "../../../Firebase/firebase";
 import { AuthContext } from "../../../context/AuthContextProvider";
 import { signInWithPopup } from "firebase/auth";
+import { getAuth, sendPasswordResetEmail } from "firebase/auth";
 
 function Login() {
     // ...........................................................................................
@@ -15,6 +16,7 @@ function Login() {
     const [password, setpassword] = useState("");
     const [error, setError] = useState(false);
     const [loading, setLoading] = useState(false);
+    const [resetEmailSentMessage, setRestEmailSentMessage] = useState("");
 
     const navigate = useNavigate();
 
@@ -63,6 +65,25 @@ function Login() {
         });
         setLoading(false);
     }
+
+    function resetPassword() {
+        const auth = getAuth();
+
+        sendPasswordResetEmail(auth, email)
+            .then(() => {
+                setRestEmailSentMessage("Password reset email sent!");
+            })
+            .catch((error) => {
+                // const errorCode = error.code;
+                // const errorMessage = error.message;
+                console.log(error);
+                // ..
+            });
+    }
+
+    setTimeout(() => {
+        setRestEmailSentMessage("");
+    }, 10000);
 
     // ...........................................................................................
 
@@ -122,9 +143,23 @@ function Login() {
                                 <div id="forgot_div">
                                     <p>
                                         Forgot Password{" "}
-                                        <Link to="/rest" id="reset_btn">
+                                        <Link
+                                            onClick={resetPassword}
+                                            id="reset_btn"
+                                            to="/resetpassword"
+                                        >
                                             Rest
                                         </Link>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p
+                                        style={{
+                                            color: "green",
+                                            fontSize: ".85rem",
+                                        }}
+                                    >
+                                        {resetEmailSentMessage}
                                     </p>
                                 </div>
                                 <button

@@ -1,5 +1,12 @@
 @import "./utilities";
 
+.request_anime {
+    width: 3%;
+    @include mobile_screen {
+        width: 5%;
+    }
+}
+
 .header_div {
     position: fixed;
     z-index: 60;
@@ -17,6 +24,7 @@
         display: flex;
         align-items: center;
         column-gap: 0.5rem;
+
         .brand_logo {
             animation-name: BrandLogo;
             animation-duration: 3s;

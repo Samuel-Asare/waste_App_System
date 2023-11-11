@@ -19,13 +19,10 @@ function EachBlogCard() {
             {mainData.length > 0 && (
                 <div key={mainData[0].id}>
                     <header>
-                        <img
-                            src={`/src/assets/BlogPage/BlogCards_Images/${item}.jpeg`}
-                            alt=""
-                        />
+                        <img src={mainData[item - 1].image} alt="" />
                         <div className="content">
-                            <h1>{mainData[0].title}</h1>
-                            <p>{mainData[0].description}</p>
+                            <h1>{mainData[item - 1].title}</h1>
+                            <p>{mainData[item - 1].description}</p>
                         </div>
                     </header>
                     <div className="storyContent">

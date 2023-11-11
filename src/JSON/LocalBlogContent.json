@@ -1,60 +1,70 @@
 [
     {
         "title": "The Hidden Impact: Unveiling the True Cost of Waste",
+        "image": "https://images.unsplash.com/photo-1562077981-4d7eafd44932?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": " Delve into the often unseen consequences of waste on our environment, health, and future generations. Shedding light on the urgent need for better waste management.",
         "key": 1,
         "date": "20/10/2023"
     },
     {
         "title": "From Trash to Treasure: Innovations in Waste Upcycling",
+        "image": "https://images.unsplash.com/photo-1595278069441-2cf29f8005a4?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Explore innovative initiatives that transform waste materials into valuable products, showcasing how creativity can turn trash into a sustainable resource.",
         "key": 2,
         "date": "19/3/2023"
     },
     {
         "title": "A Cleaner Tomorrow: The Role of Waste Management in Environmental Conservation",
+        "image": "https://images.unsplash.com/photo-1586041828039-b8d193d6d1dc?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Understand the critical role waste management plays in safeguarding our environment. Highlighting best practices and sustainable solutions for effective waste disposal.",
         "key": 3,
         "date": "24/10/2023"
     },
     {
         "title": "Rising to the Challenge: How Cities Tackle the Waste Crisis",
-        "description": "Showcase how various cities worldwide are addressing waste challenges through progressive policies, community engagement, and advanced waste management systems.",
+        "image": "https://images.unsplash.com/photo-1632247620837-970aa94d2b99?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        " description": "Showcase how various cities worldwide are addressing waste challenges through progressive policies, community engagement, and advanced waste management systems.",
         "key": 4,
         "date": "05/12/2023"
     },
     {
         "title": "Reducing, Reusing, Recycling: A Guide to Sustainable Waste Practices",
+        "image": "https://images.unsplash.com/photo-1591198619986-ac025da6a1f3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Offer practical tips and insights on how individuals can actively contribute to waste reduction through simple lifestyle changes and embracing the principles of the 3Rs.",
         "key": 5,
         "date": "03/8/2023"
     },
     {
         "title": "The Circle of Waste: Understanding the Life Cycle of Our Trash",
+        "image": "https://images.unsplash.com/photo-1534962303837-2edd16492781?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Take readers on a journey through the life cycle of waste - from creation to disposal. Raise awareness about the environmental impact at each stage and ways to mitigate it.",
         "key": 6,
         "date": "04/10/2023"
     },
     {
         "title": "Waste Not, Want Not: Exploring a Zero-Waste Lifestyle",
+        "image": "https://images.unsplash.com/photo-1574676039880-73da8368f0eb?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Explore the zero-waste movement, inspiring readers to adopt a lifestyle that minimizes waste generation and contributes to a more sustainable and eco-friendly future.",
         "key": 7,
         "date": "09/10/2023"
     },
     {
-        "title": "Ocean's Silent Crisis: The Detrimental Impact of Marine Waste",
+        " title": "Ocean's Silent Crisis: The Detrimental Impact of Marine Waste",
+        "image": "https://images.unsplash.com/photo-1631174721289-6656e7f3353c?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Shed light on the alarming issue of marine waste and its devastating impact on ocean ecosystems, emphasizing the urgent need for collective action and ocean conservation.",
         "key": 8,
         "date": "07/1/2023"
     },
     {
         "title": "Waste Warriors: Communities Coming Together to Combat Pollution",
+        "image": "https://images.unsplash.com/photo-1525331336235-d3153d7e58cf?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Narrate empowering stories of communities and local groups actively participating in waste cleanups, recycling drives, and education campaigns to combat pollution.",
         "key": 9,
         "date": "01/10/2023"
     },
     {
         "title": "Innovative Waste Solutions: Tech Transforming the Waste Landscape",
+        "image": "https://images.unsplash.com/photo-1626266929533-f810ea288d83?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Feature cutting-edge technologies and digital solutions that are revolutionizing waste management, making it more efficient, sustainable, and eco-conscious.",
         "key": 10,
         "date": "09/10/2023"

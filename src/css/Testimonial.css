@@ -21,7 +21,7 @@
 .testimonial_container .glassy_div {
   padding: 2rem 1rem;
   text-align: center;
-  background-color: rgba(234, 236, 181, 0.8078431373);
+  background-color: goldenrod;
 }
 @media (max-width: 770px) {
   .testimonial_container .glassy_div {
@@ -30,6 +30,14 @@
 }
 .testimonial_container .glassy_div .header {
   margin-bottom: 2rem;
+}
+.testimonial_container .glassy_div .header::after {
+  content: "";
+  width: 80%;
+  margin: 1rem auto 0;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.3333333333);
+  display: block;
 }
 @media (max-width: 770px) {
   .testimonial_container .glassy_div .header {

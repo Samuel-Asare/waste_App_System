@@ -38,11 +38,12 @@
             .brandName {
                 color: $primary-blue;
                 padding-bottom: 1rem;
-                cursor: default;
+                letter-spacing: 1px;
             }
             .connect_text {
-                font-weight: bold;
+                font-weight: normal;
                 padding-bottom: 1rem;
+                font-size: 1.1rem;
             }
             .button {
                 background-color: $primary-blue;

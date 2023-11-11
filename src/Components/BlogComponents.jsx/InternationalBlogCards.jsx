@@ -22,8 +22,9 @@ const InternationalBlogCards = () => {
                         <Link to={`/blog/${item.key}`}>
                             <div className="image_div">
                                 <img
-                                    src={`/src/assets/BlogPage/BlogCards_Images/${item.key}.jpeg`}
+                                    src={`${item.image}`}
                                     alt="blog image"
+                                    loading="lazy"
                                 />
                                 <div className="content">
                                     <h6 className="title">{item.title}</h6>

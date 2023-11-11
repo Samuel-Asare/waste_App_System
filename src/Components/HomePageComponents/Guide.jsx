@@ -44,9 +44,7 @@ const Guide = () => {
                     </p>
                 </div>
                 <div className="list-timeline">
-                    {/*  */}
                     <Timeline position="alternate">
-                        {/* 1 */}
                         <TimelineItem>
                             <TimelineOppositeContent
                                 sx={{ m: "auto 0" }}
@@ -64,15 +62,18 @@ const Guide = () => {
                                 <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent sx={{ py: "12px", px: 2 }}>
-                                <Typography variant="h6" component="span">
+                                <Typography variant="body4" component="span">
                                     SignUp / LogIn
                                 </Typography>
-                                <Typography sx={{ color: "#595959" }}>
+                                <Typography
+                                    sx={{ color: "#595959" }}
+                                    variant="body2"
+                                >
                                     For easy booking
                                 </Typography>
                             </TimelineContent>
                         </TimelineItem>
-                        {/* 2 */}
+
                         <TimelineItem>
                             <TimelineOppositeContent
                                 sx={{ m: "auto 0" }}
@@ -89,15 +90,18 @@ const Guide = () => {
                                 <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent sx={{ py: "12px", px: 2 }}>
-                                <Typography variant="h6" component="span">
+                                <Typography variant="body4" component="span">
                                     Navigate to the connent page
                                 </Typography>
-                                <Typography sx={{ color: "#595959" }}>
+                                <Typography
+                                    sx={{ color: "#595959" }}
+                                    variant="body2"
+                                >
                                     The page houses the connect process
                                 </Typography>
                             </TimelineContent>
                         </TimelineItem>
-                        {/* 3 */}
+
                         <TimelineItem>
                             <TimelineOppositeContent
                                 sx={{ m: "auto 0" }}
@@ -115,15 +119,18 @@ const Guide = () => {
                                 <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent sx={{ py: "12px", px: 2 }}>
-                                <Typography variant="h6" component="span">
+                                <Typography variant="body4" component="span">
                                     Provide the required Information
                                 </Typography>
-                                <Typography sx={{ color: "#595959" }}>
+                                <Typography
+                                    sx={{ color: "#595959" }}
+                                    variant="body2"
+                                >
                                     Needed for better Identification
                                 </Typography>
                             </TimelineContent>
                         </TimelineItem>
-                        {/* 4 */}
+
                         <TimelineItem>
                             <TimelineOppositeContent
                                 sx={{ m: "auto 0" }}
@@ -141,15 +148,18 @@ const Guide = () => {
                                 <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent sx={{ py: "12px", px: 2 }}>
-                                <Typography variant="h6" component="span">
+                                <Typography variant="body4" component="span">
                                     Submit the Information
                                 </Typography>
-                                <Typography sx={{ color: "#595959" }}>
+                                <Typography
+                                    sx={{ color: "#595959" }}
+                                    variant="body2"
+                                >
                                     Connected!!!!
                                 </Typography>
                             </TimelineContent>
                         </TimelineItem>
-                        {/* 5 */}
+
                         <TimelineItem>
                             <TimelineSeparator>
                                 <TimelineConnector />
@@ -159,16 +169,24 @@ const Guide = () => {
                                 <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent sx={{ py: "12px", px: 2 }}>
-                                <Typography variant="h6" component="span">
+                                <Typography
+                                    sx={{ m: "auto 0" }}
+                                    align="right"
+                                    variant="body2"
+                                    color="#1a22ba"
+                                    component="span"
+                                >
                                     Repeat
                                 </Typography>
-                                <Typography sx={{ color: "#595959" }}>
+                                <Typography
+                                    sx={{ color: "#595959" }}
+                                    variant="body2"
+                                >
                                     Everytime you need to contact the waste
                                     agencies
                                 </Typography>
                             </TimelineContent>
                         </TimelineItem>
-                        {/* END.................. */}
                     </Timeline>
                 </div>
             </div>

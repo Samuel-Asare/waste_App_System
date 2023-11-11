@@ -1,101 +1,98 @@
-.footer_div {
+.footer_wrapper {
   padding: 1rem;
-  color: #f2f2f2;
-  font-size: 0.8rem;
+  width: 100vw;
   background-color: rgba(100, 108, 255, 0.961);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.footer_div .wrapper {
+.footer_wrapper .inner_wrapper {
+  width: 80%;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 @media (max-width: 770px) {
-  .footer_div .wrapper {
-    width: 100%;
+  .footer_wrapper .inner_wrapper {
+    width: 90%;
+    flex-direction: column;
+    row-gap: 1rem;
   }
 }
-@media (max-width: 770px) {
-  .footer_div .wrapper {
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .footer_wrapper .inner_wrapper {
     width: 100%;
+    flex-direction: column;
+    row-gap: 1rem;
   }
 }
-@media (min-width: 992px) {
-  .footer_div .wrapper {
-    width: 100%;
-  }
+.footer_wrapper .inner_wrapper .brand_name .name {
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
-.footer_div .wrapper .top {
-  margin: 0 auto;
-  color: #111010;
-}
-.footer_div .wrapper .top::after {
+.footer_wrapper .inner_wrapper .footer_links:after {
   content: "";
   display: block;
   width: 100%;
   height: 1px;
-  background-color: rgba(10, 10, 10, 0.2);
-}
-.footer_div .wrapper .top ul {
-  display: grid;
-  gap: 0.5rem;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-}
-@media (max-width: 770px) {
-  .footer_div .wrapper .top ul {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (min-width: 770px) and (max-width: 991.98px) {
-  .footer_div .wrapper .top ul {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-.footer_div .wrapper .top ul li {
-  list-style: none;
-  text-align: center;
-}
-.footer_div .wrapper .bottom {
-  color: #111010;
-  display: flex;
-  padding: 1rem 1rem 0;
-  justify-content: space-between;
-  text-align: center;
-  margin: 0 auto;
-}
-@media (max-width: 770px) {
-  .footer_div .wrapper .bottom {
-    width: 100%;
-  }
+  background-color: rgba(51, 51, 51, 0.4352941176);
+  margin-top: 0.5rem;
 }
 @media (min-width: 992px) {
-  .footer_div .wrapper .bottom {
-    width: 80%;
+  .footer_wrapper .inner_wrapper .footer_links:after {
+    display: none;
   }
 }
-@media (min-width: 770px) and (max-width: 991.98px) {
-  .footer_div .wrapper .bottom {
-    width: 80%;
+.footer_wrapper .inner_wrapper .footer_links .links ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+.footer_wrapper .inner_wrapper .footer_links .links ul a {
+  font-weight: normal;
+}
+.footer_wrapper .inner_wrapper .footer_links .links ul a li {
+  list-style: none;
+  text-decoration: underline;
+}
+@media (max-width: 770px) {
+  .footer_wrapper .inner_wrapper .footer_links .links ul a li {
+    font-size: 0.9rem;
   }
 }
-.footer_div .wrapper .bottom h6 {
-  color: #fff;
-  letter-spacing: 0.2px;
-  margin-left: 5rem;
-}
-.footer_div .wrapper .copyright_div {
+.footer_wrapper .inner_wrapper .footer_links .copyright_div {
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: normal;
   color: #111010;
 }
-.footer_div .wrapper .copyright_div .copyright_brandname {
+.footer_wrapper .inner_wrapper .footer_links .copyright_div .copyright_brandname {
   cursor: pointer;
   color: whitesmoke;
   padding: 0.1rem;
 }
-.footer_div .wrapper .copyright_div .copyright_brandname:hover {
+.footer_wrapper .inner_wrapper .footer_links .copyright_div .copyright_brandname:hover {
   text-decoration: underline;
+}
+.footer_wrapper .inner_wrapper .social_links .social ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+.footer_wrapper .inner_wrapper .social_links .social ul li {
+  list-style: none;
+}
+.footer_wrapper .inner_wrapper .social_links .text p {
+  font-size: 0.85rem;
 }/*# sourceMappingURL=Footer.css.map */

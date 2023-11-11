@@ -1,11 +1,13 @@
-// the header makes use of the Bootstrap NavBar; bootstrap import in the App.jsx component
 import "../css/Header.css";
-import Recycle_Icon from "../assets/other_Images/recycle_icon.svg";
+// import Recycle_Icon from "../assets/other_Images/recycle_icon.svg";
 import { useContext, useState } from "react";
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../context/AuthContextProvider";
 import HeaderProfileIcon from "./HeaderProfile/HeaderProfileIcon";
+
+import Lottie from "lottie-react";
+import request_anime from "../JSON/request_anime.json";
 
 function Header(args) {
     const [isOpen, setIsOpen] = useState(false);
@@ -17,14 +19,11 @@ function Header(args) {
     return (
         <div>
             <Navbar {...args} className="header_div" expand="md">
+                <Lottie
+                    animationData={request_anime}
+                    className="request_anime"
+                />
                 <Link to="/" className="brand_name">
-                    <img
-                        src={Recycle_Icon}
-                        alt="recycle icon"
-                        width="30px"
-                        height="30px"
-                        className="brand_logo"
-                    />
                     <h3>cleanwaste.</h3>
                 </Link>
                 <NavbarToggler onClick={toggle} className="toggle_hamburger " />

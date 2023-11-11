@@ -91,6 +91,7 @@ export default function PaymentForm() {
                             <option value="Recyclables ">
                                 Recyclables (Plastic, Paper, Glass, etc.)
                             </option>
+                            a
                             <option value="Hazardous_Waste ">
                                 Hazardous Waste (Chemicals, Batteries, etc.)
                             </option>
@@ -105,7 +106,7 @@ export default function PaymentForm() {
                     <TextField
                         required
                         id="quantityOfBins"
-                        label="Quantity Of Bins"
+                        label="Number Of Bins"
                         fullWidth
                         autoComplete="QuantityOfBins"
                         variant="standard"

@@ -43,11 +43,12 @@
 .connect_With_Us .glassy_div .content .brandName {
   color: #646cff;
   padding-bottom: 1rem;
-  cursor: default;
+  letter-spacing: 1px;
 }
 .connect_With_Us .glassy_div .content .connect_text {
-  font-weight: bold;
+  font-weight: normal;
   padding-bottom: 1rem;
+  font-size: 1.1rem;
 }
 .connect_With_Us .glassy_div .content .button {
   background-color: #646cff;
