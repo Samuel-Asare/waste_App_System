@@ -53,13 +53,6 @@
   margin: 0;
   font-size: 1.5rem;
 }
-.signup_container .sign_content header .google_text {
-  background-color: #fff;
-  padding: 0.5rem;
-  border-radius: 0.3rem;
-  width: -moz-fit-content;
-  width: fit-content;
-}
 .signup_container .sign_content header p #link_item {
   color: #646cff;
   text-decoration: none;

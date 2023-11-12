@@ -1,134 +1,131 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import "../../../css/SignUp.css";
-import { FcGoogle } from "react-icons/fc";
 import { Link, useNavigate } from "react-router-dom";
-
-// Firebase imports
-import { createUserWithEmailAndPassword } from "firebase/auth";
-import { auth, provider } from "../../../Firebase/firebase";
+import {
+    createUserWithEmailAndPassword,
+    sendEmailVerification,
+    fetchSignInMethodsForEmail,
+} from "firebase/auth";
+import { auth } from "../../../Firebase/firebase";
 import { AuthContext } from "../../../context/AuthContextProvider";
-import { signInWithPopup } from "firebase/auth";
 
 function SignUp() {
-    // ...........................................................................
-
+    const navigate = useNavigate();
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [error, setError] = useState("");
-    const [subscribe, setSubcribe] = useState(false);
-
-    const navigate = useNavigate();
-
     const { currentUser } = useContext(AuthContext);
-
-    useEffect(() => {
-        console.log(subscribe);
-    }, [subscribe]);
-
-    // auth context
     const { dispatch } = useContext(AuthContext);
 
-    // submit handle function...................
+    const [userFirstName, setUserFirstName] = useState("");
+    const [userLastName, setUserLastName] = useState("");
+
+    console.log(userFirstName, userLastName);
+
     function handleSubmit(e) {
         e.preventDefault();
 
         if (password.length <= 6) {
-            setError("Password must be more than 6");
-            return; // Exit the function if there's an error
+            setError("Password must be more than 6 characters.");
+            return;
         } else {
-            setError(null); // Reset error when password is valid
+            setError(null);
         }
 
-        createUserWithEmailAndPassword(auth, email, password)
-            .then((userCredential) => {
-                let user = userCredential.user;
-                dispatch({ type: "LOGIN", payload: user });
-                navigate("/");
+        // Check if the user exists with the provided email
+        fetchSignInMethodsForEmail(auth, email)
+            .then((signInMethods) => {
+                if (signInMethods.length === 0) {
+                    // User doesn't exist, proceed with signup
+                    createUserWithEmailAndPassword(auth, email, password)
+                        .then((userCredential) => {
+                            let user = userCredential.user;
+                            dispatch({ type: "LOGIN", payload: user });
+
+                            // Send email verification
+                            sendEmailVerification(auth.currentUser)
+                                .then(() => {
+                                    navigate("/login");
+                                })
+                                .catch((error) => {
+                                    console.error(
+                                        "Email verification failed:",
+                                        error
+                                    );
+                                    setError(
+                                        "Failed to send verification email. Please try again."
+                                    );
+                                });
+                        })
+                        .catch((error) => {
+                            console.error("Signup failed:", error);
+                            setError("Failed to sign up. Please try again.");
+                        });
+                } else {
+                    // User already exists with this email
+                    setError(
+                        "User with this email already exists. Please log in."
+                    );
+                }
             })
             .catch((error) => {
-                console.log(error);
-                setError(error);
+                console.error("Error checking existing user:", error);
+                setError("Error checking existing user. Please try again.");
             });
     }
 
-    // end submit handle function................
-
-    // Google Signin with popup.....................
-
-    function handleGoogleSignup() {
-        signInWithPopup(auth, provider).then((currentUser) => {
-            let user = currentUser.user;
-            console.log(currentUser.email);
-            dispatch({ type: "LOGIN", payload: user });
-            navigate("/");
-        });
-    }
-
-    // ...................................................................................................
-
     return (
         <>
-            {currentUser ? (
-                navigate("/")
-            ) : (
+            {!currentUser ? (
                 <div className="signup_container">
                     <div className="sign_content">
                         <header>
                             <h1>Create new account.</h1>
-
                             <p>
                                 Already have an account?{" "}
                                 <Link to="/login" id="link_item">
                                     Log in
                                 </Link>
                             </p>
-                            {/* GOOGLE SIGNUP......................... */}
-
-                            <button
-                                className="google_text"
-                                onClick={handleGoogleSignup}
-                            >
-                                Signup with google <FcGoogle />
-                            </button>
-
-                            {/* END GOOGLE SIGNUP......... */}
                         </header>
-
                         <form onSubmit={handleSubmit}>
+                            {/* Add state for first and last name */}
                             <fieldset className="names_fieldset">
                                 <input
                                     type="text"
                                     placeholder="First Name"
                                     className="first_name"
                                     required
+                                    onChange={(e) =>
+                                        setUserFirstName(e.target.value)
+                                    }
                                 />
                                 <input
                                     type="text"
                                     placeholder="Last Name"
                                     className="last_name"
+                                    onChange={(e) =>
+                                        setUserLastName(e.target.value)
+                                    }
                                 />
                             </fieldset>
                             <fieldset className="credential_fieldset">
                                 <input
                                     type="email"
-                                    onChange={(e) => {
-                                        setEmail(e.target.value);
-                                    }}
+                                    onChange={(e) => setEmail(e.target.value)}
                                     placeholder="example@gmail.com"
                                     required
                                     className="email"
                                 />
                                 <input
                                     type="password"
-                                    onChange={(e) => {
-                                        setPassword(e.target.value);
-                                    }}
+                                    onChange={(e) =>
+                                        setPassword(e.target.value)
+                                    }
                                     placeholder="enter password"
                                     required
                                 />
-                                {/* error start..... */}
                                 <div className="errorMessage">{error}</div>
-                                {/* error end... */}
                                 <label
                                     htmlFor="subscribe"
                                     className="subscribe_label"
@@ -136,15 +133,11 @@ function SignUp() {
                                     <input
                                         type="checkbox"
                                         id="subscribe"
-                                        onChange={(e) => {
-                                            setSubcribe(
-                                                e.target.checked && true
-                                            );
-                                        }}
-                                    />{" "}
+                                        // onChange={(e) => setSubscribe(e.target.checked)}
+                                    />
                                     <p>
                                         I hereby agree to the terms and
-                                        condition of this website
+                                        conditions of this website
                                     </p>
                                 </label>
                                 <button type="submit" className="submit_btn">
@@ -154,6 +147,8 @@ function SignUp() {
                         </form>
                     </div>
                 </div>
+            ) : (
+                navigate("/") // Consider revising this for redirection
             )}
         </>
     );

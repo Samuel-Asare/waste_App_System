@@ -51,13 +51,6 @@
 .login_container .login_content header h1 {
   font-size: 1.5rem;
 }
-.login_container .login_content header .google_text {
-  background-color: #fff;
-  padding: 0.5rem;
-  border-radius: 0.3rem;
-  width: -moz-fit-content;
-  width: fit-content;
-}
 .login_container .login_content header p #link_item {
   color: #646cff;
   text-decoration: none;
@@ -116,7 +109,7 @@
 }
 .login_container .login_content form fieldset #login_btn {
   width: 40%;
-  margin: 2em auto 0 auto;
+  margin: 0 auto;
   padding: 0.6em 0.1em;
   border-radius: 4em;
   outline: none;

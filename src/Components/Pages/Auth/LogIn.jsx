@@ -1,13 +1,13 @@
 import "../../../css/LogIn.css";
-import { FcGoogle } from "react-icons/fc";
+
 import { Link, useNavigate } from "react-router-dom";
 import { useContext, useState } from "react";
 
 // Firebase imports
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth, provider } from "../../../Firebase/firebase";
+import { auth } from "../../../Firebase/firebase";
 import { AuthContext } from "../../../context/AuthContextProvider";
-import { signInWithPopup } from "firebase/auth";
+
 import { getAuth, sendPasswordResetEmail } from "firebase/auth";
 
 function Login() {
@@ -53,19 +53,6 @@ function Login() {
         marginBottom: "0",
     };
 
-    // Google Signin with popup.....................
-
-    function handleGoogleSignup() {
-        setLoading(true);
-        signInWithPopup(auth, provider).then((currentUser) => {
-            let user = currentUser.user;
-            console.log(currentUser.email);
-            dispatch({ type: "LOGIN", payload: user });
-            navigate("/");
-        });
-        setLoading(false);
-    }
-
     function resetPassword() {
         const auth = getAuth();
 
@@ -102,13 +89,6 @@ function Login() {
                                     sign up
                                 </Link>
                             </p>
-
-                            <button
-                                className="google_text"
-                                onClick={handleGoogleSignup}
-                            >
-                                LogIn with google <FcGoogle />
-                            </button>
                         </header>
                         {/* FORM START */}
                         <form onSubmit={handleLogin}>

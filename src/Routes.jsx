@@ -19,6 +19,7 @@ import ResponseTimeComponent from "./Components/ReviewComponents/EachReviewTag//
 import GeneralSuggestionMain from "./Components/ReviewComponents/EachReviewTag/GeneralSuggestion/GeneralSuggestionMain";
 import AboutUs from "./Components/Pages/AboutUs";
 import ForgetPassword from "./Components/Pages/Auth/ForgetPassword";
+import Verification from "./Components/Pages/Auth/Verification";
 
 const AppRoutes = () => {
     return (
@@ -45,6 +46,7 @@ const AppRoutes = () => {
             <Route path="/signup" element={<SignUp />} />
             <Route path="/login" element={<LogIn />} />
             <Route path="/resetpassword" element={<ForgetPassword />} />
+            <Route path="/verify" element={<Verification />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<AboutUs />} />
             <Route

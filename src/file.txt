@@ -1,141 +1,82 @@
- 
- // MAIN SignUp form
+SIGNIN WITH GOOGLE
 
 
- <form onSubmit={handleSubmit}>
-                    <fieldset>
-                        <div id="names_fieldset">
-                            <input
-                                type="text"
-                                placeholder="First Name:"
-                                id="fname"
-                                value={fname}
-                                onChange={(e) => setFname(e.target.value)}
-                            />
-                            <input
-                                type="text"
-                                placeholder="Last Name:"
-                                id="lname"
-                                value={lname}
-                                onChange={(e) => setLname(e.target.value)}
-                            />
-                        </div>
-                        <div id="credentials_fieldset">
-                            <input
-                                type="email"
-                                placeholder="Example@gmail.com"
-                                id="email"
-                                value={email}
-                                onChange={(e) => setEmail(e.target.value)}
-                            />
-                            <input
-                                type="password"
-                                placeholder="Password"
-                                id="password"
-                                onChange={(e) => {
-                                    setPassword(e.target.value);
-                                }}
-                            />
-                            {/* <p style={messageStyle}>{confirmPassMessage}</p> */}
-                            {/* <input
-                                type="password"
-                                placeholder="Confirm Password"
-                                id="con_password"
-                                value={conpassword}
-                                onChange={(e) => {
-                                    setConpassword(e.target.value);
-                                    if (conpassword === getpassword) {
-                                        setConfirmPassMeassage("");
-                                    } else {
-                                        setConfirmPassMeassage(
-                                            "password mismatch"
-                                        );
-                                    }
-                                }}
-                            /> */}
-                        </div>
-                        {/* <p style={messageStyle}>{existuser}</p> */}
-                        <button type="submit" id="submit_btn">
-                            create account
-                        </button>
-                    </fieldset>
-                </form>
+// import { FcGoogle } from "react-icons/fc";
+import { auth, provider } from "../../../Firebase/firebase";
+// import { signInWithPopup } from "firebase/auth";
 
 
-                //END MAIN SignUp FORM 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- <div id="names_fieldset">
-                            <input
-                                type="text"
-                                placeholder="First Name:"
-                                id="fname"
-                                value={fname}
-                                onChange={(e) => setFname(e.target.value)}
-                            />
-                            <input
-                                type="text"
-                                placeholder="Last Name:"
-                                id="lname"
-                                value={lname}
-                                onChange={(e) => setLname(e.target.value)}
-                            />
-                        </div>
+ // Google Signin with popup.....................
+
+    // function handleGoogleSignup() {
+    //     signInWithPopup(auth, provider).then((currentUser) => {
+    //         let user = currentUser.user;
+    //         console.log(currentUser.email);
+    //         dispatch({ type: "LOGIN", payload: user });
+    //         navigate("/");
+    //     });
+    // }
 
 
-                          const [fname, setFname] = useState("");
-    const [lname, setLname] = useState("");
+    // STYLING
+
+
+    .google_text {
+                background-color: $primary-white;
+                padding: 0.5rem;
+                border-radius: 0.3rem;
+                width: fit-content;
+            }
+
+
+
+             {/* GOOGLE SIGNUP.........................
+
+                            <button
+                                className="google_text"
+                                onClick={handleGoogleSignup}
+                            >
+                                Signup with google <FcGoogle />
+                            </button> */}
+
+                            {/* END GOOGLE SIGNUP......... */}
 
 
 
 
 
-                <form onSubmit={handleSignUp}>
-                    <fieldset>
-                        <div id="credentials_fieldset">
-                            <input
-                                type="email"
-                                placeholder="Example@gmail.com"
-                                id="email"
-                                onChange={(e) => setEmail(e.target.value)}
-                            />
-                            <input
-                                type="password"
-                                placeholder="Password"
-                                id="password"
-                                onChange={(e) => {
-                                    setPassword(e.target.value);
-                                }}
-                            />
-                        </div>
 
-                        <button type="submit" id="submit_btn">
-                            create account
-                        </button>
-                    </fieldset>
-                </form>
+
+
+
+    function handleSubmit(e) {
+        e.preventDefault();
+
+        if (password.length <= 6) {
+            setError("Password must be more than 6 characters.");
+            return;
+        } else {
+            setError(null);
+        }
+
+        createUserWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+                let user = userCredential.user;
+                dispatch({ type: "LOGIN", payload: user });
+
+                sendEmailVerification(user).then(() => {
+                    if (user.emailVerified) {
+                        // Allow access to other pages or navigate
+                        navigate("/dashboard");
+                    } else {
+                        // Email not verified
+                        setError("Please verify your email to log in.");
+                        navigate("/login");
+                    }
+                });
+            })
+            .catch((error) => {
+                console.log(error);
+                setError("Failed to sign up. Please try again.");
+            });
+    }

@@ -1,10 +1,5 @@
 import "../../css/Carousel.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import BeachImage from "../../assets/Carousel_Imgaes/Beach-Waste image.jpeg";
-import RoadImage from "../../assets/Carousel_Imgaes/Road-Waste image.jpeg";
-import SeaWaste from "../../assets/Carousel_Imgaes/SeaWaste.jpeg";
-import GatheredWaste from "../../assets/Carousel_Imgaes/GatheredWaste.jpeg";
-import LandFills from "../../assets/Carousel_Imgaes/LandFills.jpeg";
 
 import { useState } from "react";
 import {
@@ -17,35 +12,35 @@ import {
 
 const items = [
     {
-        src: BeachImage,
+        src: "https://images.unsplash.com/photo-1571510228522-bcd6099cea0b?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         altText: "🏖️ Cleaning for a Coastal Rebirth",
         caption: "Rise with the Tides 🌊 Let's Rescue Our Seashores",
         key: 1,
         imageSource: "",
     },
     {
-        src: RoadImage,
+        src: "https://images.unsplash.com/photo-1605027538720-37afa8b9fc39?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         altText: "🚛 Unsung Warriors of Waste Management",
         caption: "Riding the Green Streets 🌿 Keeping Your World Spotless",
         key: 2,
         imageSource: "",
     },
     {
-        src: SeaWaste,
+        src: "https://images.unsplash.com/photo-1621451537084-482c73073a0f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         altText: "🚣 Battling Pollution, Salvaging Serenity",
         caption: "Deep Dive into Clean Waters 🏊‍ Dive for a Cleaner Future",
         key: 3,
         imageSource: "",
     },
     {
-        src: GatheredWaste,
+        src: "https://images.unsplash.com/photo-1619540034640-0d41b5e0f6fc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         altText: "🌍 Time for Action, Not Waste",
         caption: "Join the Green Revolution ♻️ Be Part of the Cleanup Crew",
         key: 4,
         imageSource: "",
     },
     {
-        src: LandFills,
+        src: "https://images.unsplash.com/photo-1525331336235-d3153d7e58cf?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         altText: "🗑️ Tracing Our Trash Footprint",
         caption: "Awakening the Landfills 🌱 Transforming Waste into Wisdom",
         key: 5,
